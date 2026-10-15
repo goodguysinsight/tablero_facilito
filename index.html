@@ -143,7 +143,8 @@ footer.note b{color:var(--ink)}
   var GEO={dep:JSON.parse(document.getElementById('d-dep').textContent),
            prov:JSON.parse(document.getElementById('d-prov').textContent),
            dist:JSON.parse(document.getElementById('d-dist').textContent)};
-  var STA=JSON.parse(document.getElementById('d-sta').textContent);
+  var STA=JSON.parse(document.getElementById('d-sta').textContent)
+            .filter(function(s){return isFinite(s.la)&&isFinite(s.lo)&&s.la<=0.5&&s.la>=-19&&s.lo<=-68&&s.lo>=-82;});
   var FUELS={regular:'Gasohol Regular',premium:'Gasohol Premium',g84:'Gasolina 84',diesel:'Diesel B5 S-50',gnv:'Gas Natural Vehicular'};
   var UNIT={regular:'galón',premium:'galón',g84:'galón',diesel:'galón',gnv:'m³'};
   function un(){return UNIT[state.fuel];}
