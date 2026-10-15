@@ -1,0 +1,616 @@
+﻿codigo_osinergmin,unidad,direccion,ubigeo,departamento,provincia,distrito,latitud,longitud,regular,premium,g84,diesel
+6939,Grifo Flotante Orox,Margen Izquierda Del Rio Ucayali S/N,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.38822,-74.5222,19.3,,,22.3
+6947,Grifo Flotante Domi E.I.R.L.,Margen Derecha Del Rio Ucayali,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.38759,-74.52209,19.2,,,21.8
+6958,Compania  Operadora De La Selva,Av. Jose Faustino Sanchez Carrion N° 1450,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.37156,-74.55437,21.09,26.29,,23.99
+7006,Grifo A Y R E.I.R.L.,Jr. Mariscal Castilla Nº 512,160201,LORETO,ALTO AMAZONAS,YURIMAGUAS,-5.88782,-76.10336,24.0,,18.5,21.5
+7066,Chevrolane Import S.A.C.,Av. La Marina N° 185,160112,LORETO,MAYNAS,BELEN,-3.73982,-73.24126,21.89,,20.59,22.99
+7067,Servicentro Donatto Srl.,Av. Navarro Cauper Esquina Con Pasaje Bello Amazonas Mz. D. Lote 3,160101,LORETO,MAYNAS,IQUITOS,-3.73597,-73.25896,23.1,,21.42,23.5
+7362,Grifos Essa Pucallpa Sac,Av. Federico Basadre Nº 298-Aguaytía,250301,UCAYALI,PADRE ABAD,PADRE ABAD,-9.03938,-75.50784,19.19,,,22.66
+7907,Grifo Cesar Srl,"Av. Augusto Freyre N°1625, Esquina Con Calle Trujillo",160108,LORETO,MAYNAS,PUNCHANA,-3.73142,-73.24429,21.0,,19.5,22.8
+8113,Grifo Panchito E.I.R.L.,Av. Alfonso Ugarte Nº 983 Esq. Con Jr. Rufino Echenique,160101,LORETO,MAYNAS,IQUITOS,-3.75588,-73.25723,23.0,,22.0,18.5
+8213,Combustibles Y Lubricamtes Cesar Srl,"Pablo Rosell N°795, Esquina Con Av. Freyre",160101,LORETO,MAYNAS,IQUITOS,-3.74093,-73.24515,21.0,,19.5,22.8
+8278,Estacion De Servicios Nordalex E.I.R.L.,Carretera Fernando Belaunde Terry S/N Km. 1,220601,SAN MARTIN,MARISCAL CACERES,JUANJUI,-7.18612,-76.73461,23.8,24.7,,26.0
+8303,Grifo Flotante Maria Eugenia E.I.R.L,Av. Mariscal Caceres N° 2186,160112,LORETO,MAYNAS,BELEN,-3.74338,-73.24358,21.29,,19.49,22.99
+8385,H Y Z Negociaciones Y Servicios E.I.R.L.,Interseccion Jr. Huayabamba Y Jr. 1Ro De Noviembre,010601,AMAZONAS,RODRIGUEZ DE MENDOZA,SAN NICOLAS,-6.39629,-77.48088,27.0,29.0,,29.5
+8489,Grup Sil Eirl.,Avenida Marginal N° 161,010307,AMAZONAS,BONGARA,JAZAN,-5.94292,-77.97825,24.5,25.7,,26.3
+8508,Servicentro Cesar Srl,Av. Alfonso Ugarte N° 700-712 Esq. Con Bolognesi N° 1296,160112,LORETO,MAYNAS,BELEN,-3.7575,-73.2542,21.0,,19.5,22.8
+8576,Santa Rosa E.I.R.L.,Av. Carretera Marginal Oeste N° 800-802,220801,SAN MARTIN,RIOJA,RIOJA,-6.04372,-77.18491,23.5,24.5,,26.5
+8654,Combustibles Del Oriente Sac.,Av. San Martin Nº 899,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.38888,-74.53416,19.99,,,21.99
+8753,Distribuidora Gaby E.I.R.Ltda,Carretera Marginal Sur Km. 2,220909,SAN MARTIN,SAN MARTIN,LA BANDA DE SHILCAYO,-6.49992,-76.35379,23.5,25.5,,25.8
+8810,Compaia Operadora De La Selva Sa,Av. La Marina N°944,160108,LORETO,MAYNAS,PUNCHANA,-3.72246,-73.24495,22.59,,21.29,24.79
+8835,Compaia Operadora De La Selva Sa,Av. Abelardo  Quiñones N°845,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.76594,-73.26501,23.19,,21.45,25.65
+8960,Delta Pucallpa S.R.L.,Av. Centenario N° 1310 (Antes Av. Centenario N° 3800),250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.38523,-74.55379,20.2,,,22.99
+8971,Inversiones Inesita S.A.C,Av. Abelardo Quiñones N° 492,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.76485,-73.26046,23.99,,22.3,
+8973,Grifo El Metro S.R.Ltda.,Esq. Calle Francisco Bardales Y Inte. Cesar Lopez Rojas,160201,LORETO,ALTO AMAZONAS,YURIMAGUAS,-5.89515,-76.10899,22.9,,18.8,21.5
+8991,Estacion De Servicios Nordalex E.I.R.L.,Carretera Fernando Belaunde Terry Km. 1.5,220601,SAN MARTIN,MARISCAL CACERES,JUANJUI,-7.17114,-76.73666,23.8,24.7,,26.0
+8996,Compania Operadora De La Selva,Av. Bellavista N° 290,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.40065,-74.55143,20.95,,,24.29
+9045,Inversiones Neyra Valencia S.A.C.,Carretera Fernando Belaunde Terry Km 481,220801,SAN MARTIN,RIOJA,RIOJA,-6.05113,-77.17221,23.59,26.49,,26.1
+9100,Cirila Vargas Cardenas,Av. Dos De Mayo Esquina Con Jr. Manu,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.58783,-69.18811,24.8,,,27.5
+9243,Estacion De Servicios Universal S.A.C.,Jr. Jimenez Pimentel N° 1560,220901,SAN MARTIN,SAN MARTIN,TARAPOTO,-6.49972,-76.3721,22.9,24.9,,25.2
+9316,Grifo Torres E.I.R.L.,Av. Fernando Belaunde Terry S/N (Antes Jr. La Marginal 2Da Cuadra),220701,SAN MARTIN,PICOTA,PICOTA,-6.91712,-76.33154,23.8,26.1,,25.8
+9328,Compania Operadora De La Selva,Jr. Guillermo Sisley Nº 1200,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.37292,-74.54569,20.69,,,24.29
+9342,Corporacion Grifera Sac,Av. Madre De Dios N° 181,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.58975,-69.18512,25.89,26.85,,27.79
+9393,Grifo Putumayo E.I.R.L.,Jr.Putumayo N° 1678  Esq. Con Calle Magdalena Nueva ,160101,LORETO,MAYNAS,IQUITOS,-3.73891,-73.25711,21.0,,19.5,23.5
+9506,Servicentro La Muyuna,Jr. Ramon Castilla Esquina Con Jr. Lima,220901,SAN MARTIN,SAN MARTIN,TARAPOTO,-6.48398,-76.37183,25.99,26.99,,27.99
+9548,Compaia Operadora De La Selva Sa,Esquina Calle Fanning Con Calle Calvo De Araujo N° 801,160101,LORETO,MAYNAS,IQUITOS,-3.74704,-73.25006,21.79,,20.69,24.89
+9550,Grifo 28 De Julio E.I.R.L.,Av. 28 De Julio / Independencia,160108,LORETO,MAYNAS,PUNCHANA,-3.72742,-73.25088,23.0,,22.0,
+9655,Cia Vargas Ing.Asoc.Serv.Afin Y Hnos Sac,"Esq. Av. Aeropuerto, Av. Ejército Y Jr. Huayabamba",010601,AMAZONAS,RODRIGUEZ DE MENDOZA,SAN NICOLAS,-6.39707,-77.48,27.0,29.0,,29.5
+9660,Negociaciones Jessmara Eirl.,"Jr. Yavari 1572, Esquina Con Pasaje Las Castañas",160101,LORETO,MAYNAS,IQUITOS,-3.73767,-73.25296,22.5,,21.3,24.5
+14777,Dam Servis Sociedad Anonima Cerrada,Av. Madre De Dios Nº 695 Cruce Con Av. Fitzcarrald,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.59399,-69.18887,24.5,,,28.0
+14833,Grifo Universal Eirl,Av. Cajamarca Sur Nº 354,220804,SAN MARTIN,RIOJA,NUEVA CAJAMARCA,-5.94093,-77.3077,23.2,24.5,,25.7
+14849,Inversiones R. Ortiz S.A.C.,Av. 9 De Octubre Nº 125 - Aa.Hh 9 De Octubre,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.38766,-74.54722,19.5,,,29.5
+14850,Reddy E.I.R.L,"Rio Sepahua (Vertice A: Lat 11°09\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'13.953\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\""S/Long 73°02\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'43.271\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\""W)/Rio Urubamba (Vertice A: Lat 11°09\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'08.816\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\""S/Long 73°02\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'51.179\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\""W)",250202,UCAYALI,ATALAYA,SEPAHUA,-11.15389,-73.04591,24.0,,,27.0
+14854,Inversiones Malec Empresa Individual De Responsabilidad Limitada,Carretera Federico Basadre Km.161 Mz. 215 Lote 05 - Junta Vecinal Barrio Unido,250301,UCAYALI,PADRE ABAD,PADRE ABAD,-9.03606,-75.49863,19.39,,,21.49
+15699,Servicios Multiples Yacumama E.I.R.L.,Av. Yarina Nº 2210 ,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.36896,-74.56174,20.99,,,23.99
+16682,Grifo Servicentro Sonia Eirl,"Av. Dos De Mayo, Mz. I , N° 677",170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.59332,-69.18188,25.3,,,27.0
+16695,Estacion De Servicios Morales Eirl,Jr. Victoria Vasquez N° 101 (Esquina  Av. Salaverry N° 300),220910,SAN MARTIN,SAN MARTIN,MORALES,-6.47988,-76.38113,24.0,25.0,,26.0
+16747,Wins Estaciones De Servicio Srl,Esq. Calle Fanning N° 696 Con Mariscal Caceres,160101,LORETO,MAYNAS,IQUITOS,-3.74993,-73.25056,19.77,,18.59,23.95
+16751,Petroleos Del Peru - Petroperu S.A.,Esquina Loreto Y Fiztcarrald,160112,LORETO,MAYNAS,BELEN,-3.7464,-73.2427,21.8,,20.4,24.6
+16761,Estacion De Servicios Sud America Del Oriente Eirl,Av. Cajamarca Sur S/N - Carretera Fernando Belaunde Terry Km. 462,220804,SAN MARTIN,RIOJA,NUEVA CAJAMARCA,-5.95164,-77.30257,23.2,24.5,,25.7
+16762,Sucesion Surco Orue Pablo Francisco,Av. Ernesto Rivero N° 442,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.59382,-69.18163,25.0,26.0,,28.0
+16770,Inversiones Gasoil Eirl,Lote 10 Mz. 1423 Calle Reverenda Madre Ascencion Nicol,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.59463,-69.17284,24.99,,,27.99
+16783,Inversiones Oro Negro S.A.C.,Jr. Tahuantinsuyo N° 102,220901,SAN MARTIN,SAN MARTIN,TARAPOTO,-6.48983,-76.36326,24.0,26.5,,27.3
+17845,Servicentro Belen S.R.Ltda.,Calle Elías Aguirre N° 1403,160112,LORETO,MAYNAS,BELEN,-3.76035,-73.25207,22.7,,20.0,23.4
+17855,Gralm Group Eirl,Puerto Lao - Margen Izquierda Del Rio Amazonas,160112,LORETO,MAYNAS,BELEN,-3.74038,-73.24114,22.0,,19.2,22.5
+17882,Cresencio Barrios Correa,Av. Chachapoyas N° 1030 (Sector Gonchillo),010701,AMAZONAS,UTCUBAMBA,BAGUA GRANDE,-5.74978,-78.44964,22.8,24.0,,25.5
+18266,Grifo Carolina S.A.C.,Jr. Martinez De Compagñon N° 688,220901,SAN MARTIN,SAN MARTIN,TARAPOTO,-6.49126,-76.36507,22.3,24.5,,26.0
+18419,Grifo Latino E.I.R.L.,Jr. Jimenez Pimentel N° 1261,220901,SAN MARTIN,SAN MARTIN,TARAPOTO,-6.49684,-76.36863,24.5,25.6,,28.0
+18421,Grifo Morona Cocha Eirl,Av. Ejercito N° 200,160101,LORETO,MAYNAS,IQUITOS,-3.7452,-73.26506,21.4,,19.5,24.0
+18433,Servicios Sales Sociedad Comercial De Responsabilidad Limitada,Jr. Gonzales Vigil N°101 (Ex Av. Del Ejercito),160101,LORETO,MAYNAS,IQUITOS,-3.75178,-73.2661,22.9,,21.3,26.0
+18542,Grifos Cecilia Srl,Malecon Puerto La Hoyada - Margen Derecho Del Rio Ucayali,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.37899,-74.51628,19.0,,,21.5
+18572,Servicentro Espinoza E.I.R.L.,Av. Fernando Belaunde Terry Jr. Argentina Mz 07 Lts. 01 Y 02 C.P. Alexander Von Humbold (Km. 86 Carretera Federico Basadre)  ,250305,UCAYALI,PADRE ABAD,ALEXANDER VON HUMBOLDT,-8.82625,-75.05197,18.3,23.9,,20.7
+18581,Servicentro San Juan S.R.L.,Carretera Federico Basadre Km. 6.500,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.393,-74.5845,19.1,,,21.18
+18584,Proveedora Del Sur Eirl,Av. Madre De Dios Cuadra 8 Esquina Jr. Junin,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.5968,-69.19218,25.89,26.85,,27.79
+18587,Vargas Flores Cindi Karen,Mariscal Caceres N° 217,160201,LORETO,ALTO AMAZONAS,YURIMAGUAS,-5.89817,-76.11105,24.0,,18.5,21.5
+18649,Negociaciones Jhon  Christian S.R.L.,Av. Centenario N° 299,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.38345,-74.5427,19.9,,,21.9
+18654,Estacion De Servicios Surtidores Acosta,"Carretera Federico Basadre Mz. 170, Lote 02, Localidad Pampa Yurac - Aguaytia",250301,UCAYALI,PADRE ABAD,PADRE ABAD,-9.05104,-75.51648,18.99,,,21.3
+18677,Inversiones Calicanto Srl,Jr. Independencia Nº 101 ,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.37995,-74.5305,20.59,,,21.99
+18680,Inversiones Salmu S.A.C.,Carretera Federico Basadre Km. 10.450 (Antes Km 10.251),250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.40138,-74.61898,20.0,25.0,,21.68
+18688,International Oil Company Of The Peru S.A.C.,Av. Yarinacocha N° 2800 Mz. 145 Lote 04,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.3665,-74.56428,19.99,24.89,,21.4
+18689,Compania Operadora De La Selva,Av. Miraflores/Arborizacion Nro. 1439,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.37448,-74.56799,21.89,26.39,,23.79
+18690,Combustibles Del Oriente S.A.C,Av. Yarina / Callao N° 1310 Mz 41 Lote 01,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.36219,-74.56899,19.99,,,21.99
+20002,Combustible De La Selva Santo Tomas Eirl,"Carretera Santo Tomas Km 1, Mz. A, Lts 1, 2, 3 Y 4 – Aa.Hh. Aeropuerto",160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.78979,-73.30032,21.05,,19.6,24.9
+20003,Grifo Flotante Otorongo Srl.,Prolongacion Putumayo S/N Esq. Con Calle Garcia Calderon,160101,LORETO,MAYNAS,IQUITOS,-3.73337,-73.26399,23.12,,21.41,
+20011,Serv. Oro Negro Mazuko,"Carretera Mazuko-Puerto Mazuco Con El Jr. Qoripampa Mz. A, Lotes 1, 2, 12, 13, 15, 16, 17 Y 18",170102,MADRE DE DIOS,TAMBOPATA,INAMBARI,-13.09177,-70.39184,26.0,,,26.5
+20012,Leocuper Representaciones E.I.R.L.Tda,"Av. Inambari Mza. 28, Lote 13 - Mazuko",170102,MADRE DE DIOS,TAMBOPATA,INAMBARI,-13.09493,-70.36543,26.0,27.0,,29.0
+20018,Wleo Representaciones S.R.L.,"Av. Fitzcarrald Nº 902, Esq. Con Jr. Ancash",170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.59449,-69.18832,26.5,27.5,,29.0
+20089,Servioriente S.C.R.Ltda.,Jr. Triunfo N° 1162,220601,SAN MARTIN,MARISCAL CACERES,JUANJUI,-7.17959,-76.73077,24.5,25.0,,26.5
+20095,Servicentro La Marginal S.A.C.,Jr. Orellana N° 716,220901,SAN MARTIN,SAN MARTIN,TARAPOTO,-6.48556,-76.36867,23.99,26.8,,26.7
+20104,Grifo Central,"Av. Saenz Peña Mz. 148, Lotes 8 Y 10. Esquina Con Jr. Tarapaca N° 100",250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.37961,-74.53649,19.45,25.7,,21.3
+20109,Negociaciones Neshuya Srl,Carretera Federico Basadre Km. 60.70 Monte Alegre,250304,UCAYALI,PADRE ABAD,NESHUYA,-8.64409,-74.96515,19.99,,,20.55
+20110,Estacion De Servicios San Pedrito Jza Eirl,Carretera Federico Basadre Km. 163,250301,UCAYALI,PADRE ABAD,PADRE ABAD,-9.05245,-75.52048,18.8,25.2,,21.1
+20111,Servicentro Roma S.C.R.L.,"Carretera Federico Basadre Km. 165,00 - Pampa Yurac",250301,UCAYALI,PADRE ABAD,PADRE ABAD,-9.05275,-75.52556,18.89,24.99,,21.19
+20135,Estacion De Servicios Torres E.I.R.L.,Carretera Fernando Belaunde Terry Km. 59 (Ref. Frente A Don Pollo),220701,SAN MARTIN,PICOTA,PICOTA,-6.90634,-76.33392,23.7,26.0,,25.7
+20987,Grifo Las Colinas Srl,Av. Abelardo Quiñones Km 2.5 Esq. Con Calle Los Frutales Mz. D Lotes 01 Y 02-A,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.7693,-73.2761,23.12,,21.4,23.5
+20991,Estacion De Servicios R Y S Eirl,Av. Via De Evitamiento N° 1890,220901,SAN MARTIN,SAN MARTIN,TARAPOTO,-6.50697,-76.36733,22.3,24.5,,25.7
+21015, Martha Florimer Heredia Montenegro,Carretera Marginal Sur Km 79,220703,SAN MARTIN,PICOTA,CASPISAPA,-6.90839,-76.42858,23.0,24.0,,25.5
+21016,Inversiones Ncn S.A.C.,Carretera Fernando Belaunde Terry Km. 503,220101,SAN MARTIN,MOYOBAMBA,MOYOBAMBA,-6.04883,-76.98113,23.1,24.9,,26.2
+21149,Servicios Logisticos Vima Sac,Jr. Moquegua Con Jr. Ayacucho,220201,SAN MARTIN,BELLAVISTA,BELLAVISTA,-7.05946,-76.58651,23.5,24.5,,26.0
+21190,Combustibles Del Oriente S.A.C.,Carretera Federico Basadre Km. 6.200 - Pucallpa,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.39209,-74.58134,18.99,25.69,,21.39
+21191,Grupo Purita Calidad E.I.R.L.,Carretera Federico Basadre Km. 212,250307,UCAYALI,PADRE ABAD,BOQUERON,-9.18965,-75.79573,19.0,,,21.4
+21193,Estacion De Servicios Ecopetrol Sac,Av. 1º De Junio Nº 549 - Campoverde,250102,UCAYALI,CORONEL PORTILLO,CAMPOVERDE,-8.47497,-74.80504,19.8,,,22.1
+21196,Grifo Porvenir Am Sociedad Comercial De Responsabilidad Limitada,Carretera Federico Basadre Km. 209 - Caserio Miguel Grau,250307,UCAYALI,PADRE ABAD,BOQUERON,-9.17129,-75.79252,19.69,,,22.5
+21322,Grifo Venecia,"Alameda Olmedo Cardenas Infantes / Jr. Alfonso Ugarte Mz. 62, Lt. A",220201,SAN MARTIN,BELLAVISTA,BELLAVISTA,-7.06775,-76.58346,23.5,,,26.0
+21496,Grifo Venecia,Av. Bellavista S/N (Carretera Fernando Belaunde Terry Km. 97),220201,SAN MARTIN,BELLAVISTA,BELLAVISTA,-7.054,-76.5719,23.5,24.5,,26.0
+21560,Corporacion De Servicios Sud America E.I.R.L,Carretera Marginal Km. 505 Sector Uchuglla,220101,SAN MARTIN,MOYOBAMBA,MOYOBAMBA,-6.04799,-76.9787,23.2,24.6,,26.2
+21805,Inversiones Neyra Valencia Sac,Carretera Fernando Belaunde Terry Km. 493+820 Sector Progreso,220102,SAN MARTIN,MOYOBAMBA,CALZADA,-6.03978,-77.061,24.99,26.69,,27.29
+31666,Grifo Flotante Petromilg,"Orillas Del Rio Tambo, Jr. Malecon S/N, Villa Atalaya",250201,UCAYALI,ATALAYA,RAIMONDI,-10.72993,-73.74917,22.0,,,24.5
+31952,Combustibles Del Oriente S.A.C.,Av. Centenario Nº 147,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.38278,-74.54026,20.99,,,22.99
+31976,Servicentro Maldonado,Av. Andres A. Caceres Esquina Con Jr. Juana Blanco Mz. A Lote 163 B,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.58201,-69.19833,27.0,,,28.5
+32007,Estacion De Servicios Melchorita Eirl.,Av. Via De Evitamiento N° 582,220901,SAN MARTIN,SAN MARTIN,TARAPOTO,-6.49362,-76.37488,25.9,26.9,,27.9
+33168,Servicentro San Rafael E.I.R.L.,Carretera Fernando Belaunde Terry  Km. 83,220206,SAN MARTIN,BELLAVISTA,SAN RAFAEL,-7.02553,-76.46691,25.0,27.0,,26.5
+33688,Estacion De Servicios Multiples Amazonas E.I.R.L.,Jr. Dos De Mayo S/N Cdra. 13 Barrio La Laguna,010101,AMAZONAS,CHACHAPOYAS,CHACHAPOYAS,-6.23464,-77.86998,23.6,24.8,,27.5
+33884,Inversiones D\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'Cevallos S.R.L.,Carretera Fernando Belaunde Terry Sur Km. 60,220701,SAN MARTIN,PICOTA,PICOTA,-6.91471,-76.33145,23.8,,,25.8
+34082,Inversiones Don Benjita S.A.C.,Jr. La Merced N° 370 ,010101,AMAZONAS,CHACHAPOYAS,CHACHAPOYAS,-6.22769,-77.8704,24.9,,,27.7
+34088,Grifo Flotante Maria Eugenia Eirl,"Carretera Iquitos Nauta Km. 5.5, Quistococha",160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.82042,-73.32587,21.05,,19.6,24.25
+34091,"Grifo Millenium S,R,L.",Jr. Salaverry Con Jr. Ucayali N° 601,250305,UCAYALI,PADRE ABAD,ALEXANDER VON HUMBOLDT,-8.82608,-75.05207,19.25,,,21.39
+34285,Grifo Flotante Satelite S.R.L.,"Calle Francisco Bardales N° 920, Esquina Calle Jorge Chavez",160201,LORETO,ALTO AMAZONAS,YURIMAGUAS,-5.88713,-76.10978,24.0,,18.5,
+34443,Pascual Fretel David Edgar,Carretera Federico Basadre Km. 214 Caserio Miguel Grau,250307,UCAYALI,PADRE ABAD,BOQUERON,-9.19825,-75.79536,19.2,,,21.79
+34444,Empresa Comercializadora De Hidrocarburos Y Servicios Arias Hermanos S.A.,Av. Centenario N° 1050 (Carretera Federico Basadre Km. 2.3,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.38471,-74.54961,20.29,,,22.49
+34997,Grifo Micaela E.I.R.L.,Carretera Fernando Belaunde Terry Km 4.05,220909,SAN MARTIN,SAN MARTIN,LA BANDA DE SHILCAYO,-6.50884,-76.34744,22.0,24.0,,25.3
+35137,Grifo Flotante Santa Cecilia,Puerto Malecon Grau S/N,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.38264,-74.52563,19.0,,,21.5
+36054,L Y L Negocios Eirl,Jr. Zarumilla N° 345 Esquina Con Jr. Alfonso Ugarte - Pucallpa,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.38564,-74.5436,19.89,,,21.22
+38498,Corporacion De Servicios Sud America E.I.R.L.,Carretera Fernando Belaunde Terry Km 503 + 660 Sector Fonavi Ii Urb. Alonso De Alvarado,220101,SAN MARTIN,MOYOBAMBA,MOYOBAMBA,-6.04748,-76.97881,23.2,,,26.2
+38628,Grifocentro Petrovas Eirl,Carretera Fernando Belaunde Terry Sur Km 42 Esquina Con Jr. Loreto,220702,SAN MARTIN,PICOTA,BUENOS AIRES,-6.78888,-76.32631,22.6,24.6,,25.2
+38886,Transoceanica Ii E.I.R.L.,Carretera Puerto Maldonado - Quincemil Km. 5.70,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.5895,-69.22112,24.8,27.0,,27.0
+39034,Estacion Max E.I.R.L,"Jr. Samanez Ocampo N° 601, Esquina Con Calle Tavara West N° 500",160112,LORETO,MAYNAS,BELEN,-3.74338,-73.24358,23.2,,21.9,26.8
+39462,Gold Petrol S.R.L.,Av. 1 De Junio N° 1169 - Carretera Federico Basadre Km. 34.300,250102,UCAYALI,CORONEL PORTILLO,CAMPOVERDE,-8.47907,-74.81132,19.5,23.5,,22.1
+39747,Servicentro Davisa S.R.L,Carretera Federico Basadre Km. 60 - Neshuya,250304,UCAYALI,PADRE ABAD,NESHUYA,-8.64456,-74.96523,20.0,,,21.3
+39876,Orestes Martin Urbina Galan,Carretera Fernando Belaunde Terry Km 0+120,220101,SAN MARTIN,MOYOBAMBA,MOYOBAMBA,-6.04821,-76.97002,24.5,26.5,,26.5
+39885,Grifo Ticla,Av. Salaverry N° 895 Con Jr. Alfonso Ugarte C-8,220901,SAN MARTIN,SAN MARTIN,TARAPOTO,-6.48156,-76.37689,23.5,24.9,,26.3
+39898,Servicentro Nancy E.I.R.L.,Carretera Fernando Belaunde Terry S/N (Frente A Planta Pajaten Gas),220601,SAN MARTIN,MARISCAL CACERES,JUANJUI,-7.19393,-76.73506,24.5,25.7,,26.9
+40094,Estacion De Servicios Villacres S.R.L,Carretera Fernando Belaunde Terry Km.480+250 Sector Las Palmeras,220801,SAN MARTIN,RIOJA,RIOJA,-6.04999,-77.17437,23.5,,,26.1
+40146,Oriente Combustibles Y Drivados Sac,Calle Condamine Nº 178. Esq. Con Calle Nauta Nº 385-389,160112,LORETO,MAYNAS,BELEN,-3.74727,-73.24468,23.99,,21.99,22.39
+40147,Estacion De Servicios Montecar E.I.R.L.,Jr. Union N° 942 Barrio La Laguna,010101,AMAZONAS,CHACHAPOYAS,CHACHAPOYAS,-6.23435,-77.86925,24.89,24.49,,27.26
+40155,Compañia Operadora De La Selva,Av. Abelardo Quiñones Km. 1.5,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.76548,-73.2699,23.19,,21.45,25.45
+40156,Gasolinera Chingolo,Carretera Fernando Belaunde Terry Km 79 N° 300,220707,SAN MARTIN,PICOTA,SAN HILARION,-6.99963,-76.44392,23.5,,,26.5
+40173,Servicentro Nanay Srl.,Av. La Marina Km. 4.5,160108,LORETO,MAYNAS,PUNCHANA,-3.70718,-73.24789,23.1,,21.42,23.5
+40458,Corporacion Surco Sociedad Anonima Cerrada,Esquina Av. Andres Avelino Caceres Y Jr. Los Alpes,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.58255,-69.19531,24.8,25.8,,26.9
+40508,Grifo El Amigo,Esquina Av. Loreto Con Jr. Cajamarca,220401,SAN MARTIN,HUALLAGA,SAPOSOA,-6.93449,-76.77222,25.0,26.0,,27.5
+40615,Servicentro Vilussa Sac.,Av. Abelardo Quiñones N° 4520,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.77632,-73.29063,23.15,,21.45,23.95
+40640,Servicon S.A.C.,Carretera Fernando Belaunde Terry Norte Km. 1 + 360 ,220903,SAN MARTIN,SAN MARTIN,CACATACHI,-6.47095,-76.40321,23.0,25.0,,25.9
+40980,A Y D Hidrocarburos S.A.,Carretera Federico Basadre Km.9.600,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.39931,-74.61091,19.99,,,21.39
+41768,Inversiones Katimila Eirl,Av. Centenario Km. 4.150,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.38509,-74.55785,20.59,,,23.29
+41814,Marco Antonio Surco Atausupa ,"Esquina Av. Inambari Y Av. Los Conquistadores, Centro Poblado Mazuko",170102,MADRE DE DIOS,TAMBOPATA,INAMBARI,-13.09474,-70.36532,26.0,,,29.0
+42094,Repuestos Miami S.R.L.,Av. Prolongacion Inambari S/N,170102,MADRE DE DIOS,TAMBOPATA,INAMBARI,-13.08088,-70.3606,26.0,,,27.0
+42466,Grupo De Inversiones La Dolorosa Grifos E.I.R.L.,Prolonganción Zamora Esquina Con Calle Aviación Y La Prolongación Alfonso Ugarte -,160201,LORETO,ALTO AMAZONAS,YURIMAGUAS,-5.8923,-76.1225,23.95,,19.95,21.9
+42879,Grifo Franz E.I.R.L.,Calle Nicolas Vela Mz.71 Lt.01 Villa Atalaya ,250201,UCAYALI,ATALAYA,RAIMONDI,-10.73256,-73.75766,23.0,,,24.0
+42913,Grifo Xiomy,Carretera Federico Basadre Km. 12.200,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.40442,-74.63429,18.59,,,20.99
+43234,Super Servicentro Señor De Ccoylloritti S.R.L. ,Jr. Junín N° 1860 Y La Calle Ramón Castillo Y La Calle Ignacio Merino S/N.,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.59197,-69.20075,25.0,26.0,,27.0
+43594,Grifo Sf Horoscopo S.R.L.,Prolongacion Av. Inambari S/N (Carretera Mazuko - Puerto Maldonado),170102,MADRE DE DIOS,TAMBOPATA,INAMBARI,-13.09145,-70.36371,25.0,,,27.5
+43920,Grifo Alanya,Av. Miguel  Grau Esquina Con Jr. Pangoa - Villa Atalaya (Antes Jr. Malecon S/N),250201,UCAYALI,ATALAYA,RAIMONDI,-10.73211,-73.75668,22.5,,,24.5
+43982,Las Flores,Jr. Las Mercedes (Intersección Con Av. Venezuela). Mz  J. Lote 01. Aahh Las Flores,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.40047,-74.55135,19.4,,,23.0
+44093,Estacion De Servicio Vigemar S.A.C,"Carretera Federico Basadre Km. 8,760 Margen Derecha Frente A Aa.Hh. Magdalena",250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.39675,-74.59988,18.75,24.98,,21.1
+44177,Grifo Nauta,Carretera Nauta - Iquitos Km. 1.7 Con Av. Circular ,160301,LORETO,LORETO,NAUTA,-4.50309,-73.58756,24.9,,22.8,26.5
+44366,Inversiones Gasoil Eirl,Av. Circunvalacion S/N Lote 16 Manzana 10 A.H. Monterrico,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.5837,-69.20267,25.4,,,27.99
+44945,Servicentro Barcelona S.C.R.L,Jr. 02 De Mayo N° 603 (Antes Jr. 25 De Mayo N° 597),220101,SAN MARTIN,MOYOBAMBA,MOYOBAMBA,-6.0298,-76.97582,27.49,28.49,,28.89
+45510,Proveedora Del Sur Eirl,Carretera Puerto Maldonado - Laberinto Km. 5 (Sector La Pastora),170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.5856,-69.2157,25.89,,,27.79
+45724,Petroperu Selva 11,Carr. Federico Basadre Margen Der Km 11.150 Sector 2 De Mayo,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.40315,-74.6253,18.49,,,21.19
+55999,Elio Service S.A.C.,Carretera Federico Basadre  Km 8.118,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.39646,-74.5983,18.64,,,21.09
+61829,Lamas Capital S.R.L.,Jr. Tobias Noriega Cuadra 5,220501,SAN MARTIN,LAMAS,LAMAS,-6.41892,-76.51801,24.9,26.5,,26.7
+62325,Estacion X S.A.C.,Av. Tupac Amaru Con Av. Bellavista Mz 47 Lt 10 C  Aahh. San Fernando,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.40134,-74.53713,19.93,,,21.46
+62508,Grifo Petroriente E.I.R.L., Carretera Fernando Belaunde Terry Km. 95.40  Centro Poblado Limon,220201,SAN MARTIN,BELLAVISTA,BELLAVISTA,-7.05541,-76.54911,23.5,,,26.5
+62646,Selva Combustibles Eirl,Carretera Yurimaguas - Tarapoto Km 3.8,160201,LORETO,ALTO AMAZONAS,YURIMAGUAS,-5.91286,-76.12427,22.8,,18.5,21.3
+62776,Grifo Amazonas,Jr 03 De Octubre  Esquina Con Jr. Aguaytia S/N,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.35273,-74.57742,21.65,,,22.5
+62957,Grifo Surtidores San Marcos,Carretera Federico Basadre Km. 169.300 Caserio Miraflores-Aguaytia,250301,UCAYALI,PADRE ABAD,PADRE ABAD,-9.05159,-75.56845,19.2,,,21.4
+62995,Servicentro Selva Gas Scrl.,"Lote 2, 2-A, 3 Mz. 174-A Centro Poblado Comite Vecinal Barrio Miraflores",250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.37075,-74.55657,20.6,24.89,,21.9
+63140,Grifo Y Servicios Santa Clara Eirl,"Esquina Calle Grau Con Pasaje Rubio, Caserio Santa Clara De Nanay",160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.78745,-73.33861,20.5,,21.1,22.0
+63196,Lizardo Zumaeta Jorge,Av. Juan Pardo De Miguel N° 403,010601,AMAZONAS,RODRIGUEZ DE MENDOZA,SAN NICOLAS,-6.39256,-77.49182,26.8,29.0,,29.0
+63205,Servicentro Tva Srl.,"Av. De La Participación Km. 3 S/N, Parcela A-2, Parcelación Asociación Agraria Inca Roca",160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.778,-73.2776,23.1,,21.4,24.6
+63498,Servicentro Petronueve S.A.C,Carretera Federico Basadre Km. 9.00 (Margen Derecha) ,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.3985,-74.60824,18.7,24.8,,20.89
+63969,Multiservicios Wais E.I.R.L.,"Km 2.5 Carretera Yurimaguas - Tarapoto, Barrio Union",160201,LORETO,ALTO AMAZONAS,YURIMAGUAS,-5.91189,-76.11095,23.6,,18.5,20.8
+64083,Estacion De Servicios Mayta E.I.R.L.,Esquina De Av. Tupac Amaru Con Jr. Aguaytia Mz 51 Lote 04 - Aa.Hh. San Fernando ,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.40033,-74.54098,19.98,,,21.48
+64284,Estación De Servicios Rosynd Sociedad Anónima Cerrada - Estación De Servicios Rosynd S.A.C.,Av. Andres Avelino Caceres Km. 4.5,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.58164,-69.20659,25.3,,,27.5
+64349,Multiservicios Nueva Esperanza Empresa Individual De Responsabilidad Limitada,Asentamiento Humano Pueblo Unido - Calle 10 - Huepetuhe,170204,MADRE DE DIOS,MANU,HUEPETUHE,-12.99929,-70.52775,26.0,,,30.0
+64378,Don Isaac Corporation Eirl,Av. Peru Nº 402,220910,SAN MARTIN,SAN MARTIN,MORALES,-6.47706,-76.38722,22.3,24.97,,26.2
+64393,Petro Max Sociedad Comercial De Responsabilidad Limitada,"Av. Participación, Parcela 6, Zona B, Asociación Agraria Inca Roca",160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.7777,-73.2758,23.1,,21.1,24.9
+82160,Estacion De Servicios Aries,Interseccion Jr. Los  Cedros Y Av. Agropecuaria,010201,AMAZONAS,BAGUA,BAGUA,-5.64197,-78.52728,24.3,,,26.9
+82231,Servicentro Caribe S.A.C.,Andres Avelino Caceres Nº 422,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.58163,-69.19641,26.5,,,30.0
+82234,Servicentro Tres De Mayo E.I.R.L.,Andres Avelino Caceres Km. 4.2 La Pastora,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.58385,-69.21092,25.3,,,27.3
+82751,Compania Operadora De La Selva,Esquina De Av. Salvador Allende Con Av. Unión. Mz K. Lt 13,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.37862,-74.55034,21.79,26.39,,24.09
+82852,Grifo Rural El Amigo,Carretera Lamas - Cacatachi Km. 1.5 - Sector Julao,220501,SAN MARTIN,LAMAS,LAMAS,-6.43234,-76.50668,27.0,,,28.5
+82882,Estacion De Servicios Axel E.I.R.L.,"Carretera Fernando Belaunde Terry Nº 443+750, Caserio Angaiza Cpm Naranjillo",220802,SAN MARTIN,RIOJA,AWAJUN,-5.81445,-77.38683,23.3,24.5,,25.5
+83023,Compañía Operadora De La Selva S.A.,Av. Tupac Amaru Mz.C Lote 08 - Aa.Hh. Santa Petronila,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.39857,-74.5521,20.99,,,23.85
+83139,Estacion De Servicios Berna Sociedad Anonima Cerrada,"Calle Rimac / Jr. Rivas Araoz Mz. 31, Lote 3B-3C",250201,UCAYALI,ATALAYA,RAIMONDI,-10.72548,-73.7561,22.5,,,25.0
+83154,Gasocentro Petrogas,Carretera Fernando Belaunde Terry Km. 470,220801,SAN MARTIN,RIOJA,RIOJA,-6.05337,-77.16756,22.8,24.4,,25.6
+83193,Selva Combustibles E.I.R.L.,Carretera Yurimaguas - Tarapoto Km 44 Centro Poblado Menor Pampa Hermosa ,160201,LORETO,ALTO AMAZONAS,YURIMAGUAS,-6.09662,-76.25893,22.8,,19.0,22.0
+83289,Estacion De Servicios Rocky S.A.C.,"Mz. J1, Lote 01, Carretera Nauta Iquitos Km. 1.00 + 100",160301,LORETO,LORETO,NAUTA,-4.50502,-73.58268,23.5,,22.5,25.1
+83314,Caterer Peru Global Sociedad Anonima Cerrada - Caterer Peru Global S.A.C.,Carretera Federico Basadre Km. 16.000,250102,UCAYALI,CORONEL PORTILLO,CAMPOVERDE,-8.41636,-74.66935,19.39,,,21.29
+83352,Negociaciones D Y P Sac,Av. 28 De Julio Esquina Con Calle Buenos Aires,160108,LORETO,MAYNAS,PUNCHANA,-3.7275,-73.24827,22.5,,22.0,26.0
+83522,Jevaro Centro Oriente Sac,Av. Colonizacion Mz. K. Lt. 17 - 18,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.39834,-74.54956,19.3,,,21.0
+83660,Servicios Multiples Lyon’S Sociedad Comercial De Responsabilidad Limitada,Av. Integracion S/N Salvacion,170201,MADRE DE DIOS,MANU,MANU,-12.83235,-71.36401,24.9,,,27.9
+83740,Juana Hurtado Campo,Via Acceso Al Centro Poblado Laberinto - Sub Lote A-2-B,170104,MADRE DE DIOS,TAMBOPATA,LABERINTO,-12.7198,-69.58849,26.3,,,27.0
+83748,Servicentro Atenas Srl,Carretera Iquitos – Nauta N° 797 Con Av. La Participacion,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.79189,-73.29891,23.13,,21.42,24.5
+83817,Servicentro Santa Felicia Sac,"Esquina De Av. Aviacion Con Tupac Amaru, Mz. 39 Lote 7,8,9 Y 10 Del Predio San Rafael",250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.39836,-74.56246,19.98,,,23.3
+83889,Cesar Augusto Vilca Quispe,Av. Santo Domingo De Guzman Mz. B Lote 5 Santo Domingo (Esquina Con Calle Eduardo Zavala Altura Km. 50),170104,MADRE DE DIOS,TAMBOPATA,LABERINTO,-12.76218,-69.56566,26.0,,,27.0
+84184,Estacion De Servicios Gemelos Grifo Ad Srl.,"Jr. Dorian Campos Esquina Calle Mohenas, Mz. 117, Lote 1 Y 12, J.V. Señor De Los Milagros - Centro Poblado Villa Atalaya Ii Etapa",250201,UCAYALI,ATALAYA,RAIMONDI,-10.73168,-73.76176,22.0,,,24.5
+84295,Servicentro Mauri Sac,"Av. Prolongacion San Martin N° 495, Mz. Ñ, Lts 2, 17, 18, 19 Y 20, Aa.Hh. 11 De Julio",250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.39184,-74.53526,19.95,25.65,,21.9
+84380,Compania Operadora De La Selva,Av. Centenario Nº 488,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.38324,-74.54404,20.95,26.39,,23.99
+84487,Grifo Torres Eirl,Jr. Dos De Mayo Con Prolongación Dos De Mayo,220601,SAN MARTIN,MARISCAL CACERES,JUANJUI,-7.1841,-76.72778,24.0,25.7,,27.0
+84706,Estacion De Servicios Javimark S.A.C.,Carretera Bagua - El Milagro Km  2+854,010201,AMAZONAS,BAGUA,BAGUA,-5.63455,-78.55037,23.2,,,25.7
+84720,Combustibles Del Oriente S.A.C.,Jr. Comandante Barrera Esquina Con Jr. Independencia 698 Mz. 347 Lote 12,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.38935,-74.53702,19.99,,,21.99
+84794,Grifo Romel S.R.L.,"Margen Derecha Del Rio Nanay, Balneario Bellavista Nanay",160108,LORETO,MAYNAS,PUNCHANA,-3.70274,-73.24832,22.5,,20.0,23.5
+84881,Grifo Cristo Rey,N° 4 Parcela (Km 49 Sector Santo Domingo 100 Mt Del Cruce),170104,MADRE DE DIOS,TAMBOPATA,LABERINTO,-12.76115,-69.56387,25.8,,,27.0
+84975,Grifo Brismar Eirl,Jr. Comercio C-10  Y Av. Circunvalacion C-9,010201,AMAZONAS,BAGUA,BAGUA,-5.63648,-78.52837,25.0,26.0,,25.0
+84981,Amador Gutierrez Delgado,Car. Comunidad Palmeras Km. 177,170102,MADRE DE DIOS,TAMBOPATA,INAMBARI,-13.11272,-70.37915,27.0,,,27.0
+85065,Grifo Inambari Empresa Individual De Responsabilidad Limitada - Grifo Inambari E.I.R.L.,Fraccion  De La Unidad Catastral Nº 30046 De La Parcela 10 - Sector Las Palmeras,210303,PUNO,CARABAYA,AYAPATA,-13.12074,-70.38488,26.9,,,26.0
+85248,Estacion De Servicios San Antonio,Av. 28 De Julio S/N - Caserio Juandil,010607,AMAZONAS,RODRIGUEZ DE MENDOZA,MARISCAL BENAVIDES,-6.39069,-77.4981,27.0,28.5,,29.5
+85326,Servicentro Mayta Srl,"Junta Vecinal Las Palmeras Mz. Y-2, Lote 01, Carretera Federico Basadre Km 110",250302,UCAYALI,PADRE ABAD,IRAZOLA,-8.83309,-75.20733,19.2,24.49,,22.5
+85327,Servicentro Espinoza,"Esquina Jr. Antonio Maya De Brito Con Jr. Calleria,  Mz. H, Lote 20",250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.39292,-74.53959,19.99,,,23.2
+85854,Petrogas S.A,Margen Izquierda Del Rio Ucayali,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.38925,-74.52312,18.55,,,21.65
+86115,Servicentro Sauce Sociedad Anonima Cerrada,Esq. Avenida Leticia / Jr. Sargento Lores,220913,SAN MARTIN,SAN MARTIN,SAUCE,-6.69031,-76.21851,26.0,,,
+87538,Yarinacocha Company Sac,Carretera Federico Basadre Km 7.800,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.3957,-74.5959,18.59,,,20.89
+87660,Inversiones Y Combustibles Manu S.C.R.L.,Carretera Villa Salvacion - Shintuya S/N A 10 Km Del Poblado De Villa Salvacion,170201,MADRE DE DIOS,MANU,MANU,-12.77982,-71.37007,25.0,,,27.0
+87792,To Grifos S.A.C,Carretera Yurimaguas - Tarapoto Km. 3.7,160201,LORETO,ALTO AMAZONAS,YURIMAGUAS,-5.91463,-76.11552,23.0,,18.5,21.1
+87871,Invesiones Jesus Es Mi Camino Eirl,Aguas Frias S/N,170102,MADRE DE DIOS,TAMBOPATA,INAMBARI,-13.10907,-70.36713,27.0,,,27.0
+88137,Jose Aimituma Conto,"Comunidad Palmeras S/N Km 9,40 Parcela Nº 26, Carretera Puente Inambari - Mazuko",170102,MADRE DE DIOS,TAMBOPATA,INAMBARI,-13.11218,-70.37935,27.0,,,27.0
+88284,Grifo Tambopata S.R.L,Jr. Gonzales Prada Nº 1485,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.58777,-69.18958,25.0,26.0,,27.0
+88445,Grifo Emma J & L S.A.C.,Jr. Garcilaso De La Vega Mz A Lote 2 Sector Monterrico ,170302,MADRE DE DIOS,TAHUAMANU,IBERIA,-11.40059,-69.49007,24.8,,,26.0
+88554,Servicentro Petroesmad S.A.C.,C.P. Punkiri Chico Av. Principal Mz. D1-Lote 1,170203,MADRE DE DIOS,MANU,MADRE DE DIOS,-12.90775,-70.3623,28.0,,,30.0
+88631,Estacion De Servicios Zarita Tocache Eirl,Jr. Jose Germany N° 421 (Interseccion Con El Jr. Bolognesi),221001,SAN MARTIN,TOCACHE,TOCACHE,-8.19758,-76.51443,23.3,24.4,,27.5
+88644,Estacion De Servicios Nordalex E.I.R.L.,Esquina Jr. Mariscal Castilla Y Jr. Dos De Mayo N° 567,220601,SAN MARTIN,MARISCAL CACERES,JUANJUI,-7.17891,-76.72762,24.5,25.0,,26.5
+88682,Grifo Guadalupe Sociedad Anonima Cerrada,"Manzana 208, Lotes N° 21, 22, 23, 24, 25 Y 26 Nueva Expansion Urbana",170204,MADRE DE DIOS,MANU,HUEPETUHE,-12.99033,-70.52009,27.5,,,30.0
+88705,Servicentro Santa Maria H & R E.I.R.L.,Esquina Av. Circunvalacion Y Jr. Baquijano Y Carrillo,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.5884,-69.20194,25.9,,,27.3
+88810,J & C Marju S.A.C.,Calle Enrique Collazos Esquina Con Jr. Tambopata- Planchon,170103,MADRE DE DIOS,TAMBOPATA,LAS PIEDRAS,-12.28222,-69.15436,25.7,,,27.5
+88920,Grup Sil Eirl,Carretera Fernando Belaunde Terry Km. 294 + 880,010305,AMAZONAS,BONGARA,CUISPES,-5.93703,-77.97024,24.5,25.7,,26.3
+89012,Grifo Lider,"Av. Unión, Mz. 306, Lote 11 (Referencia: Esquiina Con Av. Arborizacion)",250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.38282,-74.56921,21.65,,,22.98
+89227,Grifo Mafer Empresa Individual De Responsabilidad Limitada ,Fraccion De Parcela 29 Sector Dos De Mayo,170102,MADRE DE DIOS,TAMBOPATA,INAMBARI,-13.08905,-70.36283,26.0,,,27.0
+89262,Petro Iquitos Sac,Carretera Iquitos - Nauta Km. 1.0,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.79296,-73.29964,21.79,,17.79,24.89
+89918,Estacion De Servicio Shaday Sac,Jr. Prolongacion Amazonas S/N,220401,SAN MARTIN,HUALLAGA,SAPOSOA,-6.93736,-76.77756,25.0,26.0,,29.0
+90020,Estación De Servicios Gaspet S.R.L.,"Jr. Alfredo Eglinton N° 300, Urb. Junta De Socios De Imosa, Esquina Con Av. Amazonas",250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.37983,-74.55377,19.99,,,21.89
+90175,Estacion De Servicios Intiyacu Sac,Jr. Augusto B. Leguia Y Calle S/N Barrio Intiyacu Altura Del Km. 100 De La Carretera Fernando Belaunde Terry,220201,SAN MARTIN,BELLAVISTA,BELLAVISTA,-7.06402,-76.60262,23.5,24.5,,25.75
+90197,Fabian Ccoa Aguilar,Av. Principal Parte Alta S/N Aa.Hh. Pueblo Unido,170204,MADRE DE DIOS,MANU,HUEPETUHE,-12.99933,-70.5273,27.5,,,30.0
+90442,Servicentro Marcoaurelio E I R L,Lote 4 Manzana D Puerto Pastora,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.58481,-69.21788,26.0,,,28.5
+90826,Grifo Chancayana Sociedad Anonima Cerrada,"Carretera Punkiri Chico-Boca Colorado, Km. 36.5, Margen Izquierdo",170203,MADRE DE DIOS,MANU,MADRE DE DIOS,-12.90155,-70.36471,29.0,,,30.0
+90997,Servicios Generales N.C.S. Sociedad Anonima Cerrada,"Jr. Bolognesi C-9, C-10",220301,SAN MARTIN,EL DORADO,SAN JOSE DE SISA,-6.61343,-76.69376,27.5,,,29.5
+91182,Grifo Guerrero Del Altomayo E.I.R.L,Carretera Fernando Belaunde Terry Km. 430 + 820 – Centro Poblado Naranjillo,220802,SAN MARTIN,RIOJA,AWAJUN,-5.80538,-77.39949,23.5,24.5,,25.7
+91262,Grifo Tabalosos E.I.R.L.,"Carretera Fernando Belaunde Terry Km 40, Esquina Con Jr. Lamas ",220510,SAN MARTIN,LAMAS,TABALOSOS,-6.39061,-76.62848,25.5,,,28.0
+91341,Servicios E Inversiones Jmvasquez,"Pasaje Aquiles Martinez Mz. A, Lote 1 - Aahh Javier Perez De Cuellar",160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.75699,-73.27224,21.4,,19.9,23.2
+91460,Combustibles Del Oriente S.A.C,Jr. Augusto  B. Leguia Nº  700,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.37736,-74.54561,19.99,,,21.99
+91472,Estacion De Servicios Espinoza,Carretera Federico Basadre Km. 85+500 Centro Poblado Menor Alexander Von Humboldt,250305,UCAYALI,PADRE ABAD,ALEXANDER VON HUMBOLDT,-8.82187,-75.04771,18.85,23.9,,20.7
+91569,Maria Tello Ruiz,Carretera Fernando Belaunde Terry Km. 533 + 700 C.P.M. Pacayzapa,220402,SAN MARTIN,HUALLAGA,ALTO SAPOSOA,-6.83926,-76.79007,25.6,27.7,,27.3
+91590,Grifo Brown Cesar,Sub Lote Fraccion B-3 Sector La Pastora,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.59185,-69.22343,25.5,,,27.5
+92125,Grifo Manantay,"Mz. C, Lotes 1, 19 Y 20 - Aa. Hh.  Sol Naciente",250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.41758,-74.55952,18.98,,,23.5
+92291,Servicentro Aldo E.I.R.L.,Fraccion De La Parcela 23-D-3 - Proyecto De Adjudicacion Santa Rosa,170102,MADRE DE DIOS,TAMBOPATA,INAMBARI,-12.92551,-70.29818,31.5,,,28.0
+92638,Servicentro Lucia E.I.R.L.,"Mz 4G Lotes 23,24 Y 18-B El Triunfo",170103,MADRE DE DIOS,TAMBOPATA,LAS PIEDRAS,-12.58633,-69.16941,26.0,27.0,,28.0
+92658,Grifo Machupiichu,Carretera Pto.Maldonado - Iberia-Iñapari Km 60,170103,MADRE DE DIOS,TAMBOPATA,LAS PIEDRAS,-12.12585,-69.12164,25.0,,,27.0
+92670,Valentin Ronald Del Carpio Guzman,Manzana 154-Lotes N° 09-11 Y 13,170204,MADRE DE DIOS,MANU,HUEPETUHE,-12.99145,-70.52246,27.0,,,30.2
+92677,Toribio Ernesto Perez Valer,"Manzana 154 Lotes Nº 15, 17 Y 19",170204,MADRE DE DIOS,MANU,HUEPETUHE,-12.99131,-70.5222,23.0,,,26.0
+92756,Grupo Don Andres S.A.C.,"Avenida Principal, Manzana 208 Lotes 1, 3 Y 5",170204,MADRE DE DIOS,MANU,HUEPETUHE,-12.99078,-70.52098,27.0,,,30.0
+93494,Grifo Mike,Av. Santa Rosa Cdra. 06 - Las Palmeras,220301,SAN MARTIN,EL DORADO,SAN JOSE DE SISA,-6.61554,-76.68105,25.8,29.5,,28.8
+93554,Servicentro Varsovia Eirl,Av. Abelardo Quiñonez Km 1.7 Esq. Con Calle Nuevo San Lorenzo,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.76532,-73.27165,23.1,,21.4,25.4
+93759,Santiago Condori  Rodriguez,"Fraccion De Parcela Nº 20, Uc 30474 - Alto Libertad Altura Km 98+500 Carret. Pto Maldonado-Mazuko",170102,MADRE DE DIOS,TAMBOPATA,INAMBARI,-12.89502,-69.94995,32.0,,,30.0
+93948,Grifo Puerto Carlos Sociedad Anónima Cerrada,Carretera Boca Colorado-Punkiri Chico Km. 32+800,170203,MADRE DE DIOS,MANU,MADRE DE DIOS,-12.87246,-70.36581,30.0,,,30.0
+93951,Lovidaca Sac,Calle Victor Raul Haya De La Torre S/N Mz N° 91 Lote 7,160601,LORETO,UCAYALI,CONTAMANA,-7.34556,-75.00777,23.0,,,
+94031,Large Human Group Sac,Prolongacion Moore Mz. R Lt. 8 (Av. Participacion),160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.78153,-73.28326,23.1,,21.7,26.2
+94033,Estacion De Servicios Durval,Carretera Interoceanica Pto Maldonado Iñapari Km. 223,170301,MADRE DE DIOS,TAHUAMANU,IÑAPARI,-10.9592,-69.57523,26.0,,,27.0
+94124,Servicentro Petroleos Huepetuhe Sociedad Anonima Cerrada - Servicentro Petroleos Huepetuhe S.A.C,Av. Huepetuhe Sn Segunda Etapa Mza. H Lote. 1 C.P. Huepetuhe,170204,MADRE DE DIOS,MANU,HUEPETUHE,-12.9945,-70.5289,28.0,,,29.0
+94134,Servicentro Alicia S.R.L.,Carretera Yurimaguas-Tarapoto  Km 3.5,160201,LORETO,ALTO AMAZONAS,YURIMAGUAS,-5.91444,-76.11832,24.0,,18.8,21.5
+94186,Ss Loreto Sac,Esquina De Francisco Bardalez Con 28 De Julio,160201,LORETO,ALTO AMAZONAS,YURIMAGUAS,-5.8915,-76.1094,23.99,,18.5,21.5
+94831,Servicentro Requena S.A.C.,"Esq. Calle Padre Giner Mz. 20, Lote 19 Y 20A Con Calle 9 De Octubre - Aahh Requena Etapa I, Zona A",160501,LORETO,REQUENA,REQUENA,-5.06138,-73.85553,27.49,,26.99,26.49
+94862,Rene Perez Tuanama,Av. 20 De Mayo - Cp 20 De Mayo,220301,SAN MARTIN,EL DORADO,SAN JOSE DE SISA,-6.61754,-76.6984,25.8,,,28.8
+95036,Estacion De Servicios Rio Mar,"Calle 4 Mz H, Lote 5 - Urb. Rio Mar 1Era Zona",160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.77085,-73.26386,20.8,,19.2,22.8
+95173,Grifo Más,Carretera Federico Basadre Km. 28.500,250102,UCAYALI,CORONEL PORTILLO,CAMPOVERDE,-8.45122,-74.77208,20.5,,,23.0
+95444,Servicentro San Alejandro S.R.L,Comite De Productores Agrarios El Porvenir - Parcela 27-B,250302,UCAYALI,PADRE ABAD,IRAZOLA,-8.83113,-75.22121,19.3,,,22.8
+95531,Servicentro San Miguel Eirl,Jr. Prolongación Miguel Grau Nro. S/N Urb. Calle Derecha Del Rio Mdd Madre De Dios,170104,MADRE DE DIOS,TAMBOPATA,LABERINTO,-12.7169,-69.59034,26.0,,,28.5
+95532,Estacion De Servicios Huancayo,Esquina De La Carretera Fernando Belaunde Terry Con Jr. Huanuco - Centro Poblado Von Humbolt,250305,UCAYALI,PADRE ABAD,ALEXANDER VON HUMBOLDT,-8.83394,-75.05122,18.29,,,20.69
+95758,Inversiones Peru Combustibles S.A.,Margen Izquierda Del Rio Marañon - Referencia Malecon Buenos Aires Con Calle Amazonas,160301,LORETO,LORETO,NAUTA,-4.5102,-73.57696,21.84,,,23.55
+95891,Cirila Vargas Cardenas,"Carretera Interoceanica Km. 110.5, Virgen De La Candelaria",170102,MADRE DE DIOS,TAMBOPATA,INAMBARI,-12.88197,-70.04443,27.5,,,28.0
+95918,Augusta Ccorimanya Cano,Calle El Puerto S/N Parte Baja-Poblado Boca Colorado,170203,MADRE DE DIOS,MANU,MADRE DE DIOS,-12.61621,-70.38868,26.0,,,25.0
+96165,Grupo Corcel Estación De Servicios S.A.C.,"Carretera Fernando Belaunde Terry Esq. Con Calle Tarma C.P. Alexander Von Humboldt Mz. 31, Lote 01",250305,UCAYALI,PADRE ABAD,ALEXANDER VON HUMBOLDT,-8.83194,-75.05222,18.35,,,20.79
+96248,20 De Abril Eirl,Jr. Piura Cuadra 6,220101,SAN MARTIN,MOYOBAMBA,MOYOBAMBA,-6.03202,-76.96731,26.97,27.97,,26.17
+96288,Servicentro Papin Ii E.I.R.L.,"Av. León Velarde S/N, Poblado De Iñapari",170301,MADRE DE DIOS,TAHUAMANU,IÑAPARI,-10.94852,-69.57853,23.5,,,26.8
+96551,Servicentro Jesus Maria E.I.R.L.,"Fundo San Francisco Parcela N° 3, Proyecto De Adjudicacion La Pastora Km. 6.5, Carretera Puerto Maldonado-Quincemil",170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.59297,-69.22702,25.9,,,27.5
+96912,Grifo Sarayacu S.R.L,"Fracción De La Parcela N° 5 – Proyecto De Adjudicación Sarayacu, Carretera Carrozable A Sarayacu",170102,MADRE DE DIOS,TAMBOPATA,INAMBARI,-12.79872,-70.04065,24.0,,,26.3
+97022,Lubricantes Y Maquinarias Luma S.A.C.,"Calle 1 Esquina Con Calle 6, Carretera Iquitos-Nauta Km. 2.5",160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.80683,-73.31357,21.4,,20.0,24.9
+97026,Silva Mendoza Lleysten Maycol,Esquina Jr. Ricardo Palma Con Jr. Comercio Cdra. 11.,220804,SAN MARTIN,RIOJA,NUEVA CAJAMARCA,-5.94283,-77.30089,23.5,24.5,,26.0
+97051,Estaciones De Servicios Hidro Perú S.A.C.,Calle 15 De Agosto S/N Esquina Con Calle Jose Carlos Becerra Pinto ,160201,LORETO,ALTO AMAZONAS,YURIMAGUAS,-5.88895,-76.1199,24.0,,18.7,20.9
+97173,Service Petroleum Company E.I.R.L.,Av. 28 De Julio Nº 659 - 661,160108,LORETO,MAYNAS,PUNCHANA,-3.72788,-73.24699,19.5,,18.5,22.2
+97245,Petroamerica,"Jr. Putumayo Mz. H Lote 32, Pueblo Joven Stadium - Etapa Stadium",160101,LORETO,MAYNAS,IQUITOS,-3.7462,-73.24901,21.29,,19.49,23.99
+97326,Estacion De Servicios Los Nativitos Sociedad Anonima Cerrada,"Jr. Maximo Conza Mza L Lote 3, El Triunfo",170103,MADRE DE DIOS,TAMBOPATA,LAS PIEDRAS,-12.58475,-69.1703,25.6,,,27.9
+97521,Grifo Romil J & R Sociedad Comercial De Responsabilidad Limitada,"Fraccion De La Parcela N° 8, Centro Poblado Menor Alegria, Carretera Interoceanica Km 61",170103,MADRE DE DIOS,TAMBOPATA,LAS PIEDRAS,-12.10799,-69.11766,25.0,,,26.8
+97728,Grifo Caynarachi,Carretera Tarapoto-Yurimaguas Km 55.06,220504,SAN MARTIN,LAMAS,CAYNARACHI,-6.33003,-76.28844,26.5,29.0,,28.5
+97847,Jose Luis Flores Paz,Fraccion  De  La  Parcela  N° 6 Unidad  Catastral N° 30007 Sector  Dos De Mayo,170102,MADRE DE DIOS,TAMBOPATA,INAMBARI,-13.07797,-70.35963,26.0,,,28.5
+97933,Estacion De Servicios D & L E.I.R.L.,Esq. Jr. Augusto B. Leguia Con Jr. Mariscal Caceres,220201,SAN MARTIN,BELLAVISTA,BELLAVISTA,-7.063,-76.581,23.5,24.5,,26.0
+98242,Grifo Puerto Rico Srl,Carretera Interoceanica A.H. El Triunfo-Iberia Km 2 Margen Izquierda,170103,MADRE DE DIOS,TAMBOPATA,LAS PIEDRAS,-12.58159,-69.17224,25.8,,,28.0
+98303,Servicentro Toda Una Vida S.R.L.,Carretera Puerto Maldonado - Cusco Km. 7+500,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.59905,-69.23676,25.0,26.0,,27.0
+98985,Rs Petroleos E.I.R.L.,Carretera Yurimaguas - Tarapoto Km 2.5,160201,LORETO,ALTO AMAZONAS,YURIMAGUAS,-5.9093,-76.1101,24.5,25.0,18.5,21.5
+98999,Grifo La Joya S.R.L.,Av. La Joya S/N. Km. 1.5-Sector La Joya,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.59998,-69.20414,25.0,26.0,,27.0
+99049,Petro Gas Candamo S.A.C.,Prolongacion Inambari Nro. S/N. Sector Dos De Mayo,170102,MADRE DE DIOS,TAMBOPATA,INAMBARI,-13.081,-70.35989,26.0,,,27.0
+99787,Proveedora Del Sur Eirl,Esquina De La Av. Aeropuerto Con La Av. Universitaria - Ovalo La Joya,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.59999,-69.20552,25.89,,,27.79
+99825,Corporacion Surco Sociedad Anonima Cerrada,"Esquina Carretera Puerto Maldonado-Iberia Y Calle 7 De Junio, Barrio Villa Esperanza-Progreso, Lote 01, Mz. 144",170302,MADRE DE DIOS,TAHUAMANU,IBERIA,-11.40663,-69.48344,25.0,,,27.5
+99871,Inversiones Ncn Sac,Av. Cajamarca (Carretera Fernando Belaunde Terry Km. 460) Cruce Con Calle San Fernando,220804,SAN MARTIN,RIOJA,NUEVA CAJAMARCA,-5.93144,-77.31174,23.6,25.0,,26.5
+100116,Estación De Servicios J & K Santiago S.R.L.,Parcela 7B De La Parcelacion Mariela Ii Etapa,250301,UCAYALI,PADRE ABAD,PADRE ABAD,-9.0553,-75.5484,18.99,,,21.1
+100237,Combustibles Mayta Srl,Carretera Federico Basadre Km. 86.200 - Junta Vecinal San Fernando,250305,UCAYALI,PADRE ABAD,ALEXANDER VON HUMBOLDT,-8.82219,-75.05553,18.39,24.49,,20.69
+100398,Grifo Combustibles Del Oriente,Carretera Colorado-Punkiri Chico Km. 33+560,170203,MADRE DE DIOS,MANU,MADRE DE DIOS,-12.8783,-70.36526,27.0,,,27.0
+100972,Jose Luis Bazan Cordova,"Av. Marceliano Alvarez N° 501 Mz 27 E, Lote 1",221005,SAN MARTIN,TOCACHE,UCHIZA,-8.45556,-76.46237,23.95,24.95,,26.99
+101109,Antonio Ocampo Rodriguez,Codigo Catastral 173 -A Margen Derecha Del Rio Mashuyacu,220603,SAN MARTIN,MARISCAL CACERES,HUICUNGO,-6.54494,-77.24052,26.0,,,28.0
+101980,Servicentro Petro Mapi Empresa Individual De Responsabilidad Limitada,"Calle Principal Independencia  Mz. L, Lote 13",170204,MADRE DE DIOS,MANU,HUEPETUHE,-12.99422,-70.52826,27.9,,,30.45
+102076,Inversiones Rohama S.A.C.,Av. La Marina N° 1814,160108,LORETO,MAYNAS,PUNCHANA,-3.7221,-73.2416,20.49,,19.3,22.99
+102201,Grifo Munichis S.A.C.,Calle Libertad N° 1117 - Villa Galpos,160201,LORETO,ALTO AMAZONAS,YURIMAGUAS,-5.89731,-76.12633,24.0,,18.5,21.5
+102272,Corporacion Matamoros Sociedad Anonima Cerrada,Carretera Transoceanica Puerto Maldonado – Cusco Km. 04,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.59015,-69.22194,26.0,,,28.0
+102669,Gutierrez Delgado Claudio,Calle Principal Mz. B L0Te 07 Nueva Expansion Urbana - Parte Alta,170204,MADRE DE DIOS,MANU,HUEPETUHE,-12.99037,-70.51745,27.5,,,30.0
+103005,Carmen Luisa Rivera Tristan,Km. 06 Del Acceso A Puerto Rosario De Laberinto (Margen Izquierda),170104,MADRE DE DIOS,TAMBOPATA,LABERINTO,-12.72313,-69.58262,28.0,,,27.8
+103045,Grifo El Salvador S.R.L.,Jr. Efrain Luna Manzana 2-Ll Lote 11,170104,MADRE DE DIOS,TAMBOPATA,LABERINTO,-12.71622,-69.5892,26.0,,,27.0
+103094,Servicios Logisticos Monterrillo S.A.C.,Carretera Fernando Belaunde Terry Km 415+380,220805,SAN MARTIN,RIOJA,PARDO MIGUEL,-5.73194,-77.51472,23.19,,,25.39
+103248,Dvm Isaac Inversiones S.A.C.,Jr. Independencia Esquina Con Jr. Apurimac,220101,SAN MARTIN,MOYOBAMBA,MOYOBAMBA,-6.02655,-76.98189,26.97,27.97,,26.17
+103368,Servicentro San Francisco E.I.R.L.,Km. 06 Carretera De Acceso Santo Domingo-Laberinto,170104,MADRE DE DIOS,TAMBOPATA,LABERINTO,-12.72331,-69.58235,26.0,,,27.6
+103900,Servicentro Mayara E.I.R.L.,Carretera Ponal-San Juan Grande Km 19+900 – Margen Derecha,170203,MADRE DE DIOS,MANU,MADRE DE DIOS,-12.63276,-70.22237,21.6,,,24.2
+104151,Rojas Alvarez Justina,Aa.Hh Las Palmeras Mz. A Lote 06 Carretera Interoceanica- Iberia,170302,MADRE DE DIOS,TAHUAMANU,IBERIA,-11.40302,-69.48518,26.0,,,27.4
+104834,Comercial Importadora Madre Selva S.A.C.,Av. La Marina Nº 1996,160108,LORETO,MAYNAS,PUNCHANA,-3.7187,-73.2432,20.4,,19.5,23.2
+105023,Servicentro Palma S.A.,Carretera Federico Basadre Km 58.5 (Local Cocepu),250102,UCAYALI,CORONEL PORTILLO,CAMPOVERDE,-8.6399,-74.9508,20.6,,,21.4
+105058,Estación De Servicio  M & P  E.I.R.L.,Calle Principal Mz. D L0Te  03,170204,MADRE DE DIOS,MANU,HUEPETUHE,-12.99029,-70.5184,27.9,,,30.45
+105095,Servicentro Petro Gas Nueva Empresa Individual De Responsabilidad Limitada - Servicentro Petro Gas,Av. Independencia S/N. Poblado De Nueva,170204,MADRE DE DIOS,MANU,HUEPETUHE,-13.02488,-70.5016,27.9,,,30.45
+105222,Estacion De Servicios Grifo Dhirma,Predio Juan Bosco Sector De Huipoca Altura Del Km 149 De La Carretera Federico Basadre,250301,UCAYALI,PADRE ABAD,PADRE ABAD,-9.05129,-75.56818,19.4,,,21.4
+105330,Servicentro La Pampilla S.R.L,Carretera De Puerto Maldonado - Cusco Km. 106 ,170102,MADRE DE DIOS,TAMBOPATA,INAMBARI,-12.89008,-70.01038,27.5,30.0,,28.0
+105470,Grifo Diana & Jesus S.R.L.,Calle Putumayo N° 277 Esquina Con Calle Amazonas - San Lorenzo,160701,LORETO,DATEM DEL MARAÑON,BARRANCA,-4.83266,-76.55219,24.0,,22.0,24.0
+106327,Estacion De Servicios Mavila Empresa Individual De Responsabilidad Limitada - Estacion De Servicios,Mz. K-01 Lote. 01 Centro Poblado Menor Mavila,170103,MADRE DE DIOS,TAMBOPATA,LAS PIEDRAS,-11.93843,-69.12061,25.0,25.5,,27.0
+107272,Hector Chanca Chamorro,Margen Izquierda Del Rio Tambo,250201,UCAYALI,ATALAYA,RAIMONDI,-10.73437,-73.74898,23.0,,,24.0
+107589,Inversiones Y Proyectos Las Torres E.I.R.L.,"Margen Derecha Del Rio Ucayali , Referencia En La Localidad De Contamana",160601,LORETO,UCAYALI,CONTAMANA,-7.34553,-75.02308,19.0,,,23.0
+108214,Inversiones Peru Combustibles S.A.,Margen Izquierda Del Río Nanay,160108,LORETO,MAYNAS,PUNCHANA,-3.69929,-73.25812,20.58,,,23.45
+108308,Eess Don Marianito Sac,Carretera Puerto Maldonado - Quince Mil Km. 6 (Margen Izquierda) Fraccion B Del Predio Alejandrina-Sector La Pastora ,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.59167,-69.22311,26.99,,,27.49
+108495,Servicentro J. Americano S.A.C.,Carretera Interoceanica Puerto Maldonado-Cusco Km. 06 (Margen Izquierda),170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.59121,-69.22243,25.9,,,27.3
+108654,Servicentro San Miguel Arcangel Empresa Individual De Responsabilidad Limitada,Av. Circunvalacion Mz.- 10 Lote N° 01 Ah. Aquilino San Jara,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.58489,-69.20248,25.5,26.3,,27.1
+108819,Combustibles Del Oriente S.A.C ,"Av. Saenz Peña N° 414, Lote 8 Y 9, Mz. 149. Esquina Con Jr. Tarapaca",250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.37945,-74.53635,19.99,25.69,,21.99
+109376,Jose Marcial Ruiz Castro,Av. Amazonas Cuadra 6 Interseccion Jr. Desiderio Arbildo S/N,010604,AMAZONAS,RODRIGUEZ DE MENDOZA,HUAMBO,-6.42361,-77.53369,27.5,,,29.5
+109510,Grifo Lesly Srl,Av. Curimana Esq. Jr. Dos De Mayo Mz. 49 Lt. 10,250303,UCAYALI,PADRE ABAD,CURIMANA,-8.43303,-75.15186,19.5,,,22.0
+109762,Carlos Emiliano Saldaña Verastegui,Av. Amazonas S/N ,010114,AMAZONAS,CHACHAPOYAS,MOLINOPAMPA,-6.2097,-77.67042,24.99,,,27.99
+109789,Servicentro Alegria J & L S.A.C.,Av. Alegria Mz. Q1 Lote 02,170103,MADRE DE DIOS,TAMBOPATA,LAS PIEDRAS,-12.1232,-69.12194,25.0,,,27.0
+109792,Petromax A.C. E.I.R.L.,"Av. Teniente Mejía – Junta Vecinal Julio Villacorta, Mz. 39H, Lotes 01, 19 Y 20, Esq. Con Jr. Mario Denis Pezo",250201,UCAYALI,ATALAYA,RAIMONDI,-10.73638,-73.75397,22.5,,,24.5
+110182,Rivera Perez Adelino,Calle Ayacucho Mz 58 Lote Nº 12 - Caballococha,160706,LORETO,DATEM DEL MARAÑON,ANDOAS,-3.90987,-76.51045,18.5,,17.5,18.0
+110184,Inversiones Miluska Sac,Jr. Yavarí Nº 1298 Esq. Con Calle Mi Peru,160101,LORETO,MAYNAS,IQUITOS,-3.73926,-73.25037,23.1,,21.7,26.2
+110413,Empresa De Transporte Fluvial Vera Peru S.A.C.,Margen Izquierda Del Rio Ucayali,160605,LORETO,UCAYALI,SARAYACU,-6.03773,-74.8511,24.0,,,24.0
+110553,Grifo Comdelsa,Esquina Del Jr. Cahuide Con El Jr. Cabo Reyes Ma. A 133 Lt. 01,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.37346,-74.52847,21.75,,,21.98
+110929,Wesly Grandez Cardenas,Margen Izquierda Rio Aguaytia,250301,UCAYALI,PADRE ABAD,PADRE ABAD,-9.03624,-75.50437,19.7,,,
+111016,Grifo Jk,Jr. San Martin N° 400,220301,SAN MARTIN,EL DORADO,SAN JOSE DE SISA,-6.61555,-76.68101,24.0,,,27.0
+111313,Sucesion Indivisa Espinoza Durand Romulo,Lote 6 Manzana 49 Av. Curimana Con El Jr. Julian Montes,250303,UCAYALI,PADRE ABAD,CURIMANA,-8.43244,-75.15116,19.5,,,22.0
+111382,Grifo Williams Eirl,Av. Marceliano Alvarez Nº 500 - 504,221005,SAN MARTIN,TOCACHE,UCHIZA,-8.44773,-76.46195,23.8,24.8,,26.5
+111655,Francisco Cueva Quispe,Carretera Ponal - San Juan Grande Km. 20+50 Margen Derecha,170203,MADRE DE DIOS,MANU,MADRE DE DIOS,-12.63139,-70.22205,23.0,,,25.0
+111788,Ccorimanya Vilca Sociedad Comercial De Responsabilidad Limitada,Carretera Puerto Maldonado - Quincemil Km. 6 Sector La Pastora,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.59265,-69.22626,25.5,,,28.0
+112167,Grifo Tupac,Av. Tupac Amaru Y Av. Primavera Mza. M Lote. 01 ,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.40059,-74.57106,21.98,,,23.8
+112332,Grifo Riso Company,Carretera Fernando Belaunde Terry S/N,220601,SAN MARTIN,MARISCAL CACERES,JUANJUI,-7.20022,-76.73614,24.2,24.7,,26.2
+112792,Estacion De Servicios Hernandez,Carretera Fernando Belaunde Terry Km. 295 + 325,010305,AMAZONAS,BONGARA,CUISPES,-5.93225,-77.96561,23.4,,,25.8
+112809,Red De Petroleos L Y L S.A.C.,Fraccion De La Parcela N° 05 Del Proyecto De Adjudicacion Denominado Sarayacu-Centro Poblado Sarayacu,170102,MADRE DE DIOS,TAMBOPATA,INAMBARI,-12.79913,-70.04008,29.0,,,29.8
+112960,Service Petroleum Company E.I.R.L.,Calle Las Palmas N°185,160108,LORETO,MAYNAS,PUNCHANA,-3.72438,-73.24869,19.4,,18.8,22.2
+113087,Cetp S.A.C.,Calle Ramon Castilla Esq. Con Av. Mariscal Caceres,160101,LORETO,MAYNAS,IQUITOS,-3.75116,-73.25335,19.9,,18.9,23.4
+113104,Multiservicios Daju S.A.C,Carretera Fernando Belaunde Terry Km 454 - Caserio La Esperanza,220804,SAN MARTIN,RIOJA,NUEVA CAJAMARCA,-5.88757,-77.33448,22.9,24.5,,25.6
+113159,Estacion De Servicios Jerusalen S.R.L.,"Av. Las Delicias S/N Mz \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'8\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\' Lote N° 25, 26 Y 27 - Sector Segunda Jerusalen",220803,SAN MARTIN,RIOJA,ELIAS SOPLIN VARGAS,-5.99473,-77.27338,23.2,24.5,,26.3
+113211,Grifo Flotante Satelite Srl,Calle Espintana Mz D Lote 20 Urb. Los Maderos,160201,LORETO,ALTO AMAZONAS,YURIMAGUAS,-5.88713,-76.12313,24.0,,18.5,21.8
+113329,Jenrri Garcia Del Aguila,Jr. Ucayali Cuadra 5,220710,SAN MARTIN,PICOTA,TRES UNIDOS,-6.80409,-76.23335,25.4,27.5,,27.5
+113614,Upiachihua Sangama Yovana,Av. 1° De Junio Esquina Con Jr. Cahuide,250102,UCAYALI,CORONEL PORTILLO,CAMPOVERDE,-8.47974,-74.81393,19.29,,,21.28
+113840,Estacion De Servicios Boqueron S.A.C,Car.Federico Basadre Km. 177 C.P. Boqueron ,250307,UCAYALI,PADRE ABAD,BOQUERON,-9.05715,-75.62971,19.25,,,21.45
+113915,Servicentro La Hacienda Srl,Carretera Iquitos-Nauta Km. 3,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.80543,-73.31346,23.14,,21.44,23.9
+113932,Estacion De Servicios Grupo San Martin Srl,"Carretera Nueva Cajamarca - Ucrania, Predio Rural San Martin, Sector Ucrania - Valle Altomayo",220804,SAN MARTIN,RIOJA,NUEVA CAJAMARCA,-5.94651,-77.29346,23.7,25.0,,25.69
+113963,Estación De Servicios Proceres S.A.C.,"Av. Santiago Saboya Bardales Y Jr. Los Pinos Mz. 3 Lote 12 Y 13, Aa.Hh. Los Proceres De Independencia ",250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.40716,-74.56453,19.3,,,23.49
+114030,Compania Operadora De La Selva,Jr. Union Mz A Lotes 01 Y 02 Aa.Hh Marginal Ucayali (Esquina Jr. Union Con Antigua Carretera A Yarinacocha),250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.38134,-74.56015,20.99,26.39,,24.55
+114083,Estacion De Servicios Campo Verde S.C.R.L.,"Av. Primero De Junio S/N Mz 126 Lotes 2A, 3, 4 Y 5",250102,UCAYALI,CORONEL PORTILLO,CAMPOVERDE,-8.4717,-74.80092,19.85,25.99,,22.19
+114115,Rs Petroleos E.I.R.L.,"Calle Prolongación 15 De Agosto S/N, Lotes 1-2, Mz. “Z”, Aa.Hh. Buena Vista",160201,LORETO,ALTO AMAZONAS,YURIMAGUAS,-5.8858,-76.1275,24.5,,18.8,21.5
+114418,Servicentro Cecilia E.I.R.L.,Av. Aviacion Esquina Con Av. Lloque Yupanqui Mz A Lote 1 Y 3 Aa.Hh Encanto,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.39351,-74.56361,19.98,,,21.48
+115202,Estación De Servicios San Hilarion Sac,Mz. 01 Lote 4 Y 5 - Carretera Fernando Belaunde Terry,220707,SAN MARTIN,PICOTA,SAN HILARION,-6.99819,-76.43735,22.5,24.0,,25.2
+115219,Grifo Flotante Petromilg,Margen Izquierda Del Rio Tambo,250201,UCAYALI,ATALAYA,RAIMONDI,-10.73204,-73.74816,22.0,,,24.5
+115277,Grifo Iñapari,"Av. Leon Velarde S/N, Esquina Con Jr. 7 De Octubre Mz “A”. Lotes 2 Y 3 Sector 2 Virgen Del Rosario Ii",170301,MADRE DE DIOS,TAHUAMANU,IÑAPARI,-10.9494,-69.5787,23.0,,,25.6
+115584,Grifo Rey David Empresa Individual De Responsabilidad Limitada,Car. Tres Islas Km. 14 C.C. Tupac Amaru,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.58021,-69.34787,26.0,,,29.0
+115870,Jevaro Centro Oriente S.A.C.,Av. Las Palmeras Esq. Jr. Jose Galvez Mz. 238 Lt. 17,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.36692,-74.5751,19.8,,,21.5
+115903,Servicentro Bramar S.C.R.L.,"Manzana G, Lotes 01, 02 Y 03 Habilitacion Urbana Santa Marina (Interseccion De La Calle N°03 Con La Av. Lloque Yupanqui) ",250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.39788,-74.58102,20.99,25.99,,22.99
+116052,Grifo Flotante Hnos. Brown Cesar S.A.C.,Margen Derecha Del Rio Madre De Dios (Sector Puerto La Pastora),170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.58421,-69.21687,24.5,,,28.5
+116133,Combustibles De La Selva Santo Tomas Eirl,P.J. San Antonio Etapa 3Ra Mz. D Lt 1 Cruce Av. San Antonio Con Calle Misti,160101,LORETO,MAYNAS,IQUITOS,-3.73677,-73.24604,20.4,,19.09,22.99
+116755,Estación De Servicio San Antonio,"Calle San Antonio Con Calle Amazonas S/N Mz. 4, Lotes 1 Y 2",160101,LORETO,MAYNAS,IQUITOS,-3.73387,-73.25305,21.69,,20.19,24.09
+116808,Negociacion Cultural Import S.A.C.,Av. Aguaytia Esquina Con Jr. Padre Aguerrizabal Mz 43 Lt 08,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.39959,-74.54087,19.4,,,23.0
+117307,Inversiones Amsi S.A.C.,Jr. Cesar Calvo De Araujo Esquina Con Calle Manco Capac,160101,LORETO,MAYNAS,IQUITOS,-3.742,-73.2568,22.2,,21.19,25.0
+117341,Grifo Shamboyacu S.A.C.,"Mz. C Lote 1, Esquina Entre Jr. Adrian Paredes (Carretera De Acceso A Nuevo Loreto) Con Jr. Doris Muñoz S/N, Barrio La Union",220708,SAN MARTIN,PICOTA,SHAMBOYACU,-7.02599,-76.13213,24.0,25.0,,26.0
+118765,Gavilan Del Oriente,Interseccion Av. Heroes Del Cenepa Y Jr. Tacna,010201,AMAZONAS,BAGUA,BAGUA,-5.63285,-78.53517,24.1,26.9,,25.9
+119011,Servicentro Mauri S.A.C.,Margen Derecha Del Rio Ucayali ,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.38992,-74.51956,19.95,,,21.9
+119134,Grifo Colonizacion,Aa.Hh. 9 De Octubre Manzana 39 Lote 1 Sector 9 De Octubre (Esquina Av. Lloque Yupanqui Y La Av. Colonizacion)  ,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.39118,-74.54789,19.98,,,23.5
+119198,Grifo Olita,Esquina De Jr. Ucrania Con Jr. Ricardo Palma,220804,SAN MARTIN,RIOJA,NUEVA CAJAMARCA,-5.93801,-77.29942,23.6,24.9,,26.6
+119255,Grifo Multiservicios Aleluya S.A.C.,Km. 0.9 De La Carretera A La Localidad De Luya-Sector El Mojon,010509,AMAZONAS,LUYA,LUYA,-6.15868,-77.94729,24.5,,,26.9
+119395,Estacion Lyra E.I.R.L.,Jr. Moore N° 1180,160112,LORETO,MAYNAS,BELEN,-3.75696,-73.2526,21.89,,20.59,22.99
+119632,Estacion Lyra E.I.R.L.,"Jr Ricardo Palma 698 Mz C Lote 13 Pueblo Joven Ricardo Palma, Primera Etapa",160112,LORETO,MAYNAS,BELEN,-3.7568,-73.23898,21.09,,19.69,22.99
+120260,Servicentro Fabio,Jr. Cesar Calvo De Araujo Esquina Con Calle Estado De Israel,160108,LORETO,MAYNAS,PUNCHANA,-3.73007,-73.25507,20.2,,18.7,23.0
+120340,Grifo Rojas E.I.R.L.,Carretera Fernando Belaunde Terry Km 75,220206,SAN MARTIN,BELLAVISTA,SAN RAFAEL,-7.00773,-76.4571,25.0,,,25.0
+120551,Delta Yarinacocha E.I.R.L.,"Av. Yarinacocha N° 2001, 2022, 2044 - Puerto Callao",250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.36756,-74.56304,19.9,,,21.7
+120736,Radiant Feisty Ladies S.A.C.,Calle Libertad N° 710. Esquina Con Calle Bolognesi,160112,LORETO,MAYNAS,BELEN,-3.7598,-73.2559,21.7,,19.8,25.6
+123722,Grifo Las Palmeras,Jr. Las Palmeras Mz. 129 Lt. 05 Esquina Cruce Jr. Lobo Caño,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.36547,-74.57606,19.8,,,21.9
+125938,Serrano Flores Fiorella Yadira,Carretera Reposo -Duran Km 48+295-Sector Puerto Pomará,010202,AMAZONAS,BAGUA,ARAMANGO,-5.40264,-78.44901,22.8,,,25.9
+126554,Estacion De Servicios Mary Estefany S.R.L.,Carretera Chachapoyas - Leymebamba - Cp. Yerbabuena ,010521,AMAZONAS,LUYA,SANTO TOMAS,-6.56443,-77.83016,23.0,,,28.0
+126647,Ee Ss Los Laureles,Jr. Los Laureles Con Jr. Tomas Davila Sandoval Mz. J Lt.14,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.40569,-74.5528,19.7,,,21.0
+127095,Estacion De Servicios Villa De Luya E.I.R.L.,"Salida Luya-Chachapoyas, Jr. Francisco Grandez Cuadra N° 1 ",010509,AMAZONAS,LUYA,LUYA,-6.16868,-77.9455,23.5,,,27.25
+127399,Grifo Benpaul S.R.L,Jr. Dos De Mayo S/N Sector  Bajo Tingo Carretera Chachapoyas-Leymebamba,010112,AMAZONAS,CHACHAPOYAS,MAGDALENA,-6.37436,-77.90572,25.1,26.1,,28.1
+128073,Cirila Vargas Cardenas,Zona Rural De La Carretera Puerto Maldonado – Cusco En La Comunidad San Bernardo,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.69041,-69.40628,24.5,,,27.5
+128269,Gasocentro Brismar Eirl,"Av. Universitaria S/N, Sector Brujo Pata - Mz. B - Lote 1",010201,AMAZONAS,BAGUA,BAGUA,-5.63903,-78.51575,25.0,26.0,,25.0
+128310,Servicentro Marco Y Miguel Empresa Individual De Responsabilidad Limitada - Servicentro Mami E.I.R.L.,Sector San Bernardo (Carretera Puerto Maldonado - Cusco Km. 29+00),170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.69127,-69.40906,26.0,27.5,,28.5
+128784,Chevrolane Import S.A.C.,"Av. Almirante Miguel Grau Seminario N° 1399 C/ Jr. Jose Galvez N° 466 Lote A, Zona Urbana ",160112,LORETO,MAYNAS,BELEN,-3.7598,-73.2525,21.89,,20.59,22.99
+129343,Servicentro San Miguel Ii E.I.R.L.,"Margen Derecha Del Rio Madre De Dios, Puerto Capitania",170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.59383,-69.17244,25.3,,,
+129567,Grifos Florida Eirl,Av. Bellavista Esquina Con Jr. Los Ceticos Mz. 40 Lotes 01 Y 24,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.39941,-74.53655,19.95,,,21.9
+130168,Surtidores Divisoria E.I.R.L.,Carretera Federico Basadre Km. 2013+350 Margen Izquierdo Aguaytia-Tingo Maria,250307,UCAYALI,PADRE ABAD,BOQUERON,-9.17862,-75.79256,19.2,,,21.79
+130436,Arturo Del Carpio Delgado,Calle Nueva Mza. U Lote 01-A Centro Poblado De Caychihue Alta Y Quebrada Nueva,170204,MADRE DE DIOS,MANU,HUEPETUHE,-13.02541,-70.49563,25.0,,,25.0
+130597,Estacion De Servico Virgen Natividad,Carretera Interoceanica Km. 1.5 Margen Izquierda- El Triunfo,170103,MADRE DE DIOS,TAMBOPATA,LAS PIEDRAS,-12.5806,-69.17275,25.5,27.0,,28.5
+130616,Exploraciones Puerto Leguia-Inambari Sociedad Comercial De Responsabilidad Limitada,"Fracción Del Lote N° 17 Del Sector El Castañal, Carretera Interoceánica Tramo Santa Rosa-Puerto Maldonado Km. 12+40 Margen Izquierda De La Carretera P",170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.62943,-69.25512,26.0,,,27.8
+130868,Combustibles De La Selva Santo Tomas Eirl,Esquina De La Calle Cuzco N° 1012 Con Calle Borja N° 701,160108,LORETO,MAYNAS,PUNCHANA,-3.72981,-73.24674,20.4,,19.09,22.99
+130933,Famhora Servicios Generales S.A.C.,Jr 3 Esquinas N° 611,010101,AMAZONAS,CHACHAPOYAS,CHACHAPOYAS,-6.23512,-77.86829,23.69,24.49,,27.19
+131256,Grifo Hexa,Av. Colonizacion Esquina Con Jr. Los Laureles Mza. 11 Lote 10,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.40439,-74.54791,19.0,,,21.2
+132100,Vilca Hurtado Cesar Augusto,Margen Derecha Del Rio Madre De Dios,170104,MADRE DE DIOS,TAMBOPATA,LABERINTO,-12.72666,-69.65367,27.0,,,
+132389,Estación De Servicios Atalaya Empresa Individual Responsabilidad Limitada,Calle Prolongacion Bolognesi Con Calle Mohemas Mz. 124 Lt 2A,250201,UCAYALI,ATALAYA,RAIMONDI,-10.72314,-73.76693,23.0,,,25.0
+132484,Estacion De Servicios Universal S.A.C.,Carretera Fernando Belaunde Terry Km. 671+300 C.P. Chincha Alta,220705,SAN MARTIN,PICOTA,PUCACACA,-6.83549,-76.33913,22.4,24.9,,25.0
+132867,Juana Hurtado Campo,Margen Derecha Del Rio Madre De Dios,170104,MADRE DE DIOS,TAMBOPATA,LABERINTO,-12.72137,-69.58644,26.3,,,27.0
+132881,Estacion De Servicio Andy E.I.R.L.,Carretera Fernando Belaunde Terry Km. 226+536 Sector Morerilla,010701,AMAZONAS,UTCUBAMBA,BAGUA GRANDE,-5.74448,-78.45451,22.7,,,24.85
+132950,William Marcelo Vicuña Melendres,Carretera Tournavista Km. 09 -Caserio Manco Capac ,250102,UCAYALI,CORONEL PORTILLO,CAMPOVERDE,-8.55913,-74.80349,17.9,,,22.3
+133007,Compania Operadora De La Selva,Av. Yarinacocha Esq. Prolong. Tupac Amaru Mz. 185 A Lt. 36-37,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.37083,-74.5566,21.59,26.39,,24.39
+133467,X Tram S.A.C.,Av. Jose Carlos Mariategui Esquina Con Calle 26 De Mayo,160501,LORETO,REQUENA,REQUENA,-5.05414,-73.84907,25.8,,24.8,26.4
+133846,Katerine Milagros Nina Ccorimanya,Carretera Punkiri Chico - Boca Colorado Km 36+400,170203,MADRE DE DIOS,MANU,MADRE DE DIOS,-12.90294,-70.36379,24.5,,,25.0
+133868,Petro Iquitos 2,Jr. Trujillo Esquina Con La Calle Maynas,160108,LORETO,MAYNAS,PUNCHANA,-3.73007,-73.25507,21.99,,20.49,24.49
+134337,Grifo Flotante Puerto Costa Sociedad Anonima Cerrada,Margen Derecha Del Rio Madre De Dios - Puerto Acosta,170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.5946,-69.17115,24.5,,,
+134640,Grifos Baldeon Del Oriente Sociedad Anonima Cerrada,Carretera F. Basadre Km. 30.500 Margen Izquierda,250102,UCAYALI,CORONEL PORTILLO,CAMPOVERDE,-8.46177,-74.78827,19.3,,,21.8
+134719,Grifo Flotante Thiago E.I.R.L,"Margen Derecha Del Rio Itaya, Frente Al Puerto Pesquero",160108,LORETO,MAYNAS,PUNCHANA,-3.72377,-73.23529,21.5,,20.8,24.7
+135516,Emerson Ignacio Alonzo Guerra,Jr. Abelardo Guerra Esquina Jr. Pedro Pinchi Mz. 12 Lte. 05,250106,UCAYALI,CORONEL PORTILLO,NUEVA REQUENA,-8.30612,-74.8666,20.0,,,22.0
+135633,Fernando Grandez Zarate,"Centro Poblado Area Urbana De Yarinacocha (Ampliación Con Puerto Callao Etapas I, Ii, Iii, Iv) Mz. 121 Lote 09 – Etapa Tercera",250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.35862,-74.58194,20.1,,,21.95
+135730,Grifo Flotante Motelito,Margen Derecho Del Rio Ucayali ,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.38899,-74.51977,19.2,,,21.9
+136140,Luis Rimarachin Carranza,Carretera A Pachiza S/N (Salida De Hicungo A Pachiza),220604,SAN MARTIN,MARISCAL CACERES,PACHIZA,-7.31308,-76.77518,26.0,,,27.5
+136503,Estación De  Servicio. Marvic Sac,Av. Aviación Esquina Via De Evitamiento Mz A Lote 15 Aahh La Fortaleza,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.41674,-74.55781,20.49,,,23.0
+136681,Inversiones Saquisaqui S.R.L.,Av. Tupac Amaru Con La Av Loreto Atura Del Km 8 De La Cfb,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.40835,-74.60021,20.0,,,
+136873,Corporacion De Negocios Petro Selva E.I.R.L.,Margen Derecho Del Rio Ucayali,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.38958,-74.51978,19.0,,,21.5
+136901,Aurelio Ñacari Ccanto ,Puerto Atalaya Margen Derecho Del Rio Tambo,250201,UCAYALI,ATALAYA,RAIMONDI,-10.72171,-73.75047,22.5,,,24.0
+137117,Jv Oriente Sac,Av. Separadora Industriales Esq. Calle S/N Alt. Carretera Federico Basadre Km 7.8,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.39099,-74.59502,18.49,,,20.79
+137229,Servicentro Inambari S.A.C.,Parque Industrial Carretera Interoceanica Km. 1,170102,MADRE DE DIOS,TAMBOPATA,INAMBARI,-13.08782,-70.36298,26.0,,,27.0
+138217,Four Beautiful Girls Inversiones S.A.C,Calle Atlantida N° 1201-1207 Esquina Calle  Abtao N° 1275-1281 Mz. B Lote 14 Ppjj Asentammiento Mariscal Castilla,160101,LORETO,MAYNAS,IQUITOS,-3.75339,-73.25898,23.1,,21.7,26.2
+138324, M V Combustibles S.A.C.,"Calle Libertad Lote 1, Aa.Hh. La Independencia",160201,LORETO,ALTO AMAZONAS,YURIMAGUAS,-5.89581,-76.12051,24.49,,19.99,22.19
+138357,Compania Operadora De La Selva,Av. Colonización/Esquina Con Calle 14 De Noviembre Mz. 16 Lote 1C,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.38818,-74.54806,20.99,,,24.39
+138686,Servicios Multiples Mabal S.A.C.,Prolongacion Av. Garcia Carhuapoma S/N Sector La Conquista,220101,SAN MARTIN,MOYOBAMBA,MOYOBAMBA,-5.8757,-77.19006,23.15,24.4,,26.0
+138713,Estacion De Servicios Acepat S.A.C,Carretera Fernando Belaunde Terry Km 649 - Uc 104409 Caserío Sin Sin,221001,SAN MARTIN,TOCACHE,TOCACHE,-8.1658,-76.57758,23.5,24.5,,27.0
+139116,Servicentro Braymar Km 40 S.C.R.L.,Carretera Federico Basadre Km 40 - Caserio Los Pinos ,250102,UCAYALI,CORONEL PORTILLO,CAMPOVERDE,-8.50686,-74.84763,20.99,,,22.99
+139150,Grifo Flotante Domi E.I.R.L.,Jr. Damaso Davila Esquina Calle Los Girasoles Mz. D Lote 04 Aahh 5 De Setiembre,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.41676,-74.55093,19.4,,,21.1
+139366,Grifo Municipal,Av. Habilitacion Urbana Municipal Psj N° 08 Mz G-2 Lote N° 10,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.40852,-74.57806,20.98,,,22.98
+139646,Emelina Lara Saldaña,Centro Poblado El Progreso S/N (Ref. Salida A San Martín Km. 357 + 80),010312,AMAZONAS,BONGARA,YAMBRASBAMBA,-5.7039,-77.85248,21.0,22.0,,24.0
+139845,Grifo San Lorenzo,Av. San Lorenzo Mz. 02 Fraccion De Lote 01 Y 04,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.34345,-74.60155,20.79,,,21.5
+140058,Estación De Servicio Yurac,Av. Rioja Esquina Con Jr. Libertad,220809,SAN MARTIN,RIOJA,YURACYACU,-5.93273,-77.22807,24.5,,,27.5
+140091,Servicentro Gato 2,Aahh Requena Mz.57 Lt. 3 Etapa 1. Zona A,160501,LORETO,REQUENA,REQUENA,-5.06274,-73.85201,27.0,,26.0,28.0
+140226,Valverde Alvites Felipe,Av. 20 De Mayo Con Jr. Salado,220301,SAN MARTIN,EL DORADO,SAN JOSE DE SISA,-6.61551,-76.69723,25.5,,,28.8
+140335,Gonzales Perdomo Aldo,Puerto Atalaya Margen Derecho Del Rio Tambo,250201,UCAYALI,ATALAYA,RAIMONDI,-10.72233,-73.74875,22.0,,,24.0
+140447,Maria Elita Goicochea Tapia,"Carretera Fernando Belaunde Terry Km 343 + 020, Cpm La Esperanza",010312,AMAZONAS,BONGARA,YAMBRASBAMBA,-5.71059,-77.90998,22.0,,,25.0
+140540,Rosita Kleofe Ocampo Salazar ,Av. Aleluya N° 1055,010509,AMAZONAS,LUYA,LUYA,-6.15413,-77.94769,24.4,25.2,,27.1
+140709,Chelita Mijahuanga Coronel,Jr. Moyobamba S/N Sector Roque ,220502,SAN MARTIN,LAMAS,ALONSO DE ALVARADO,-6.3527,-76.77666,22.1,24.0,,27.5
+140904,Manuel Mejia Guevara,"Carretera Principal S/N, Salida Al Centro Poblado Imacita-Chiriaco",010205,AMAZONAS,BAGUA,IMAZA,-5.15202,-78.29157,23.8,25.8,,26.2
+141467,J&M Empresa De Transportes Y Servicios Generales E.I.R.L,Puerto Sepahua Margen Derecha Del Rio Urubamba,250202,UCAYALI,ATALAYA,SEPAHUA,-11.14686,-73.05065,24.0,,,25.0
+143063,Servicios Forestales Tigrillo E.I.R.L.,Fundo Cuatro Hermanitas Del Caserio Tres Islas ,250106,UCAYALI,CORONEL PORTILLO,NUEVA REQUENA,-8.29989,-74.88498,20.3,,,21.65
+143147,Sucesion Indivisa Espinoza Durand Romulo,Jr. Enoc Mz. 06 Lotes 10 Y 11 Del Caserio Bello Horizonte,250303,UCAYALI,PADRE ABAD,CURIMANA,-8.44532,-75.25581,21.0,,,23.0
+143204,La Estacion Calvo De Araujo S.A.C.,Jr.. Calvo De Araujo Mz. A Lt. 1- Esquina Con La Calle Raul Pillco Perez ,160101,LORETO,MAYNAS,IQUITOS,-3.73927,-73.26045,20.6,,19.2,22.4
+144367,Estaciones Lucia S.A.C.,Mz. Q Lt. 1 Caserio Primavera Altura Del Km 4 Margen Izquierda De La Carretera Belaunde Terry ,250305,UCAYALI,PADRE ABAD,ALEXANDER VON HUMBOLDT,-8.86327,-75.04817,18.11,,,20.11
+144382,Servicentro Pampas Yurac,Carretera Federico Basadre Km. 163 Margen Izquierda Fundo Ingrid Sector Pampa Yurac,250301,UCAYALI,PADRE ABAD,PADRE ABAD,-9.04965,-75.51163,18.99,,,21.45
+144711,Petrol Fast Dylan S.A.C.,Carretera Fernando Belaunde Terry Pe 5N Km 3.90,221001,SAN MARTIN,TOCACHE,TOCACHE,-8.18982,-76.55469,23.5,24.5,,27.0
+144806,Chero Odar Agustin Casimiro,Esquina Jr. Tupac Amaru Con Jr. Jorge Chavez,220605,SAN MARTIN,MARISCAL CACERES,PAJARILLO,-7.17951,-76.68947,26.3,,,27.7
+144987,Servicentro Domi E.I.R.L,Av. 2 De Mayo Esquina Av. Paseo De La Republica A 200 Metros De La Torre Electrica De Alta Tension ,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.37119,-74.59414,19.99,,,21.2
+145451,Grifo Aviacion,Aa.Hh Los Proceres De La Independencia Mz. 23 Lt. N° 2 Av Aviacion Esquina Jr. Los Laureles ,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.40773,-74.5607,19.0,,,21.2
+145538,Servicentro  Las Vegas I,"Calle Independencia Esquina Con Calle 3 De Octubre Mz. V1, Lote 10",160101,LORETO,MAYNAS,IQUITOS,-3.73163,-73.25148,21.4,,20.0,23.9
+145574,Estacion De Servicio Grifo Sol De Selva Sac,Carretera Fernando Belaunde Terry Km 68 (Caserio Nueva Union) ,220703,SAN MARTIN,PICOTA,CASPISAPA,-6.92854,-76.39619,23.8,,,25.6
+146204,Servicentro San Juan,Carretera Rumococha Km. 1.75,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.77855,-73.30527,21.1,,19.2,23.0
+147259,Multiservicios El Mañu E.I.R.L.,Av. Marañon N° 1090 Cp. Mesones Muro,010205,AMAZONAS,BAGUA,IMAZA,-5.06341,-78.33118,25.0,,,27.5
+147379,Estacion De Servicios La Salvacion E.I.R.L,Jr. Adrian Paredes S/N Carretera De Acceso A Nuevo Loreto,220708,SAN MARTIN,PICOTA,SHAMBOYACU,-7.02784,-76.12995,26.0,27.0,,28.0
+147600,Comercial Importadora Madre Selva Sac,Pueblo Joven Agrupamiento De Viviendas Punchana Mz \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'K\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\' Lote 11 Y 12,160101,LORETO,MAYNAS,IQUITOS,-3.73163,-73.25148,20.4,,19.5,23.2
+147829,Representaciones Y Servicios Remix Atalaya Sociedad Anonima Cerrada, Jr. Rivas Araos Esq. Calle Rioja Mz. 32 Lote 1C ,250201,UCAYALI,ATALAYA,RAIMONDI,-10.72605,-73.75667,22.5,,,25.0
+148163,Inversiones Petroleras Del Oriente Peruano S.A.C.,Av. Habilitacion Urbana Municipal N°1046,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.40586,-74.57905,19.98,,,22.18
+148317,Estacion De Servicio Anita S.A.C.,Jr. Padre Pascual Alegre Mz. 161 Lote 06,250201,UCAYALI,ATALAYA,RAIMONDI,-10.72218,-73.76141,22.5,,,24.0
+148353,Servicentro Nancy E.I.R.L.,Carretera Fernando Belaunde Terry Km 800 Centro Poblado Huayabamba,220601,SAN MARTIN,MARISCAL CACERES,JUANJUI,-7.19379,-76.73503,24.5,25.7,,26.9
+148607,Grifo Conta E.I.R.L.,"Av. Ladislao Espinar N° 3 Lotes. 27,28 Y 29",160601,LORETO,UCAYALI,CONTAMANA,-7.34594,-75.01305,16.0,,,15.0
+149162,Grifo Emerson Augusto Cardenas Ocampo,Calle Amazonas Esquina Con Calle Jose Cardenas,160206,LORETO,ALTO AMAZONAS,LAGUNAS,-5.22616,-75.67469,24.0,,23.0,
+149214,Jhon Marino,Jr. Malecon S/N  Margen Derecho Del Rio Urubamba ,250202,UCAYALI,ATALAYA,SEPAHUA,-11.14668,-73.05049,25.0,,,26.0
+149228,Grifo Flotante Satelite Srl,"Via De Evitamiento S/N Lt. 120, 121, 125, 126",160201,LORETO,ALTO AMAZONAS,YURIMAGUAS,-5.89068,-76.13015,24.0,,18.5,21.8
+149378,Estacion De Servicios Loreto S.A.C.,Carretera Yurimaguas - Tarapoto Km 46 Caserio Pampa Hermosa,160201,LORETO,ALTO AMAZONAS,YURIMAGUAS,-6.1108,-76.273,23.2,,19.5,23.5
+149484,Grifo Shamboyacu S.A.C.,Jr. Bolognesi S/N ,220708,SAN MARTIN,PICOTA,SHAMBOYACU,-7.022,-76.137,24.0,25.0,,26.0
+149774,Grupo Energetico Chitani Eirl,Jr. Junin Mz. 80 Lote 3 C.P Oventeni ,250201,UCAYALI,ATALAYA,RAIMONDI,-10.76014,-74.21975,25.0,,,28.0
+149883,Grupo El Chino E.I.R.L.,Av. San Martin S/N Carretera A Perla Mayo,220807,SAN MARTIN,RIOJA,SAN FERNANDO,-5.89606,-77.27174,24.5,,,27.0
+150133,Sucesion Indivisa Espinoza Durand Romulo,Jr. Isaac Perez S/N Caserio Las Malvinas ,250303,UCAYALI,PADRE ABAD,CURIMANA,-8.39963,-75.08514,20.0,,,22.0
+150649,Alonzo Guerra Emerson Ignacio,Caserio Manco Capac Mz. 4 Lt. 02,250102,UCAYALI,CORONEL PORTILLO,CAMPOVERDE,-8.55342,-74.80374,20.0,,,22.0
+150672,Alonzo Guerra Emerson Ignacio,"Av. San Pablo De Juantia Esquina Con Jr. Corazón De Jesús, Del Caserío San Pablo De Juantia",250106,UCAYALI,CORONEL PORTILLO,NUEVA REQUENA,-8.24651,-74.87485,20.0,,,22.0
+150899,Grifo Flotante Juanita Sac,"Margen Derecha Del Rio Madre De Dios, Sector Huantupa",170104,MADRE DE DIOS,TAMBOPATA,LABERINTO,-12.64553,-69.51241,27.0,,,
+150998,Negocios Don Isaac E.I.R.L.,Esquina Jr. Lima Con Jr. Santo Toribio,220809,SAN MARTIN,RIOJA,YURACYACU,-5.93696,-77.22694,24.5,25.8,,27.0
+151820,Cgn Grifos Eirl,Jr. Los Laureles Esq. Con Jr. 16 De Noviembre Mz. C Lt. 1 A.H. Proyecto Integral La Paz,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.40593,-74.55465,19.0,,,21.0
+151869,Riveros Sullca Richard Jhon,Prolong. Cll. Nicolas Vela Mz. 163 Lt. 09 Sector Junta Vecinal Pascual Alegre ,250201,UCAYALI,ATALAYA,RAIMONDI,-10.72145,-73.76231,22.0,,,25.0
+151946,Amazons Rivers E.I.R.L.,"Margen Derecha Del Rio Nieva, Localidad De Santa Maria De Nieva",010401,AMAZONAS,CONDORCANQUI,NIEVA,-4.59187,-77.86181,24.0,26.0,,26.0
+152583,Combustibles Amazonicos S.A.C.,Av. Fernando Belaunde Terry Esq. Jr. Los Girasoles Mz. 7 Lt. 1 P.J Antomio Marino ,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.39793,-74.59582,18.8,,,22.3
+153273,Strong And Happy Girls Inversiones S.A.C.,Margen Derecho Del Rio  Nanay,160108,LORETO,MAYNAS,PUNCHANA,-3.70291,-73.24706,23.1,,21.7,26.2
+153344,Servicentro Japay,Calle Los Arenales Mz Ñ Lote 1,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.79359,-73.30313,21.8,,19.7,23.99
+153518,Servicentro Irroma,Carretera Santa Clara Km 2.5,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.77934,-73.3086,21.1,,19.2,25.5
+153754,Strong And Happy Girls Inversiones S.A.C,Calle 08 De Octubre O-1A Carretera Vargas Guerra- Caserio Santa Clara De Nanay,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.78634,-73.33662,23.1,,21.7,26.2
+154418,Servicentro J Y N Eirl,Av. Paseo De La Republica Esquina Con Jr. Huascarán – Fracción Fundo Canaima,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.38184,-74.591,19.85,,,22.85
+154830,Salazar Perez Gaby,Carretera De Agua Blanca A Bellavista Km. 64 + 100,220302,SAN MARTIN,EL DORADO,AGUA BLANCA,-6.72933,-76.69422,25.5,,,28.5
+154882,Grupo Delgado De Los Ríos E.I.R.L.,"Av. El Ejercito C-1, Sector El Milagro",010704,AMAZONAS,UTCUBAMBA,EL MILAGRO,-5.63749,-78.56561,22.9,,,25.5
+155085,José Jimi Hernández Astochado,"Lote 3A, Manzana 49, Calle Amazonas S/N - Jumbilla",010301,AMAZONAS,BONGARA,JUMBILLA,-5.90864,-77.79862,25.0,,,27.0
+155305,Rojas Collazos Brian Edu,Carretera Bagua A Saramiriza Km 268+480 - Cp Felix Flores,160703,LORETO,DATEM DEL MARAÑON,MANSERICHE,-4.6357,-77.5094,24.0,,,25.5
+155528,Estaciones De Servicios Shinty,Caserio  Miguel Grau I Etapa Parcela N° 4 Carretera Federico Basadre Km. 453+850,250307,UCAYALI,PADRE ABAD,BOQUERON,-9.18582,-75.79147,18.8,,,21.5
+155613,Soria Guevara David Alfredo,"Margen Derecha Del Rio Ucayali, En La Localidad De Contamana",160601,LORETO,UCAYALI,CONTAMANA,-7.34381,-75.0052,22.0,,,
+156081,Servicentro Participacion,Av. La Participación N° 1396,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.7744,-73.2682,23.3,,20.1,23.0
+156323,Estacion De Servicios Ansa S.A.C.,"Calle Poma Rosa S/N Esquina Con Calle Jerusalén, Del Comité De Desarrollo Comunal “Poma Rosa” S - B",160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.77397,-73.30265,21.5,,20.0,23.3
+156777,Estacion De Servicios Ucayali S.C.R.L,"Av. Teniente Mejia Interseccion Con Jr. Mario Denis Pezo Mz. 61 Lt. 1,2,3  Sector Junta Vecinal 08 De Octubre ",250201,UCAYALI,ATALAYA,RAIMONDI,-10.73664,-73.7543,23.0,,,25.0
+157346,Servicentro Irroma,Av. Jose Abelardo Quiñones Mz P Lote 7 Aahh Francisco Secada Vigneta Esquina Con Calle Corpac,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.78168,-73.29594,20.55,,18.85,25.5
+157895,Estacion De Servicios Valefabri,Av. Aviacion Esquina Con Calle 8 De Diciembre Mz. C Lote Nro 16 A.H. Virgen De La Purisima,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.41311,-74.55886,19.0,,,21.2
+158276,Estacion Pentac,Carretera Federico Basadre Km.  14.500,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.41044,-74.65322,18.7,24.8,,21.3
+158328,Estacion De Servicios San Jose Oriente S.A.C.,Carretera Federico Basadre Km. 12.3,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.4054,-74.63496,18.69,,,20.89
+158339,Servicentro Domi E.I.R.L,Jr. Andalucia Esquina Con Jorge Chavez Mz. 58 Lt. 06 Centro Poblado San Pablo De Tushmo,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.36107,-74.59767,19.99,,,21.2
+158478,Super Servicentro Señor De Ccoylloritti Sociedad Comercial De Responsabilidad Limitada,"Margen Derecha Del Río Madre De Dios, Sector Laberinto",170104,MADRE DE DIOS,TAMBOPATA,LABERINTO,-12.71568,-69.58913,26.0,,,27.0
+158506,Grifo Patito Empresa Individual De Responsabilidad Limitada,Carretera Iquitos-Nauta Km 39+760 Caserio Nuevo Horizonte,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-4.07986,-73.44735,20.5,,19.5,23.0
+158924,To Go Servis S.A.C.,Jr. Alfonso Ugarte Esquina Con Jr. Iparia Mz. 145 Lt. 1B ,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.36647,-74.56523,20.49,,,22.4
+159399,Estacion De Servicios Viva Sociedad Anonima Cerrada,Carretera Fernando Belaunde Terry Km. 198 + 817 - Caserío Siempre Viva,010704,AMAZONAS,UTCUBAMBA,EL MILAGRO,-5.74664,-78.66814,20.0,20.0,,24.4
+159757,X Tram S.A.C.,Calle Padre Giner S/N Lt 9 Mz 19,160501,LORETO,REQUENA,REQUENA,-5.06166,-73.85523,25.8,,24.8,26.4
+159777,Grifo Petro Oriente S.A.C.,Margen Derecho Del Rio Ucayali,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.37169,-74.52258,19.3,,,21.9
+159817,Estacion De Servicio Yafer S.A.C.,Carretera Federico Basadre Mz A Lt 01 Urbanizacion Santa Marina,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.39291,-74.58254,22.89,,,19.99
+160069,Empresa De Transportes Junely Sac,Av. Tupac Amaru Esquina Con Calle 8,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.39993,-74.55747,19.98,,,21.48
+160167,Inversiones Leiva E.I.R.L.,Carretera Fernando Belaunde Terry Km 752.20,220601,SAN MARTIN,MARISCAL CACERES,JUANJUI,-7.11618,-76.7329,23.9,24.7,,26.2
+160174,Jodimag E.I.R.L,Carretera Fernando Belaunde Terry Esq. Jr. San Martin,220903,SAN MARTIN,SAN MARTIN,CACATACHI,-6.46335,-76.44775,26.0,26.0,,27.5
+160466,Corporacion Swv Petrogas E.I.R.L,Carretera Iquitos Nauta Km 57.5,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-4.23076,-73.4858,22.5,,20.9,24.9
+160937,Yurimaguas Hidrocarburos S.A.C,Carretera Saramiriza - Centro Poblado Felix Flores,160703,LORETO,DATEM DEL MARAÑON,MANSERICHE,-4.63184,-77.50679,20.0,,18.5,24.5
+161054,Servicentro Ronsoco S.A.C.,Carretera Federico Basadre Km. 10.200 Fraccion De Fundo Villa Soria ,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.40139,-74.61671,18.44,,,20.95
+161061,Vega Alarcon Jose Francisco,Av. San Francisco S/N Lotizacion Praderas Del Mayo Mz. 1 C.P San Francisco,220802,SAN MARTIN,RIOJA,AWAJUN,-5.77374,-77.32171,21.0,22.0,,25.8
+161121,Grifo Flotante Fabi 1,Margen Derecha Del Rio Itaya,160108,LORETO,MAYNAS,PUNCHANA,-3.55284,-73.39744,22.5,,21.5,24.0
+161137,Grifo Flotante Domi E.I.R.L.,Puerto Masisea,250104,UCAYALI,CORONEL PORTILLO,MASISEA,-8.5338,-74.31937,20.4,,,23.6
+161968,Eleanor Empresa Individual De Responsabilidad Limitada,Margen Derecha Del Rio Tambo ,250201,UCAYALI,ATALAYA,RAIMONDI,-10.72687,-73.74942,22.5,,,28.0
+162298,Ml Inversiones Logisticas S.A.C.,Margen Derecho Del Rio Ucayali,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.39053,-74.5202,20.3,,,22.8
+162305,Estacion De Servicios R&G S.A.C.,Av. Lima S/N (Av. Lima Esq. Con Jr. Apurímac),220201,SAN MARTIN,BELLAVISTA,BELLAVISTA,-7.05727,-76.59395,23.5,24.5,,26.0
+162332,Servicentro 4 Hermanos Eirl,Predio Denominado San Pedro I Etapa Parcela 8 A La Altura Del Km. 47.100 De La Carretera Federico Basadre ,250102,UCAYALI,CORONEL PORTILLO,CAMPOVERDE,-8.56145,-74.89342,18.39,24.49,,20.69
+162510,Petroleos Y Servicios E.I.R.L.,Margen Derecho Del Rio Ucayali ,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.38747,-74.51994,19.3,,,22.0
+163017,De La Cruz Julian Esteban Percy,Carretera Federico Basadre Km.  71-72 Parcela 39B - Parcelacion Sector San Juan 12 Etapa ,250304,UCAYALI,PADRE ABAD,NESHUYA,-8.71273,-74.99954,19.8,,,20.95
+163333,Servicentro Petropampa S.A.C.,Carretera Tarapoto Yurimaguas Km 86.95 Cp Miguel Grau,160511,LORETO,REQUENA,YAQUERANA,-6.08217,-73.4858,23.0,,19.0,22.5
+163477,Estacion Sabina,"Av. San Antonio Esquina Con Periodistas Mz. E, Lote 35, Pp – Jj San Antonio",160101,LORETO,MAYNAS,IQUITOS,-3.7338,-73.2543,21.69,,20.19,24.09
+163489,Grifo Flotante Las Brisas Empresa Individual De Responsabilidad Limitada,Margen Izquierda Del Rio Tambo ,250201,UCAYALI,ATALAYA,RAIMONDI,-10.726,-73.75008,22.5,,,25.0
+163588,Grifo Flotante Rony Arturo Eirl,Margen Izquierdo Del Rio Amazonas-Centro Poblado San Joaquin De Omagua,160301,LORETO,LORETO,NAUTA,-4.2859,-73.4273,23.0,,22.5,25.5
+163700,Grifo Dos De Mayo,Av. Dos De Mayo - Fdo. Los Tres Hermanitos Parcela 2A,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.37031,-74.59113,19.99,,,21.2
+164124,Baltimore K & A E.I.R.L.,Margen Izquierda Del Rio Ucayali – Localidad De Orellana,160606,LORETO,UCAYALI,VARGAS GUERRA,-6.89806,-75.09856,21.0,,,21.0
+164294,Gasolinera Aviacion E.I.R.L.,Aa.Hh. La Paz Sector Roca Fuerte Mz. 12 Lt. 12 (Esquina Av. Aviacion Con Jr. Las Margaritas),250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.4068,-74.56059,19.4,,,21.2
+164476,Alonzo Guerra Eliseo Jamil,Jr. 14 De Enero S/N -Caserio Nueva Italia ,250203,UCAYALI,ATALAYA,TAHUANIA,-9.83346,-73.94675,20.0,,,22.0
+164820,3A Petro Comercial Amazonica E.I.R.L.,Av. Union Mz. 182 Lt. 1A Asentamiento Humano 3 De Diciembre ,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.38086,-74.55966,20.49,25.99,,22.29
+165094,Selva Mantaro Servicios E.I.R.L.,Av. Via De Evitamiento Cuadra 24,220909,SAN MARTIN,SAN MARTIN,LA BANDA DE SHILCAYO,-6.5091,-76.3525,22.3,24.0,,25.5
+165101,Ocampo Rodriguez Antonio,Anexo El Limon S/N,010609,AMAZONAS,RODRIGUEZ DE MENDOZA,OMIA,-6.4563,-77.3998,27.0,,,29.5
+165609,Zelada Portocarrero Arsenio,"Jr. Santo Toribio S/N Manzana 9, Lote 03.",010605,AMAZONAS,RODRIGUEZ DE MENDOZA,LIMABAMBA,-6.49795,-77.49691,27.0,,,29.5
+165651,Estacion De Servicios Mi Gente S.A.C.,Jr. Arica S/N C-8,220603,SAN MARTIN,MARISCAL CACERES,HUICUNGO,-7.3138,-76.7752,26.0,,,27.5
+165712,Inversiones Los Rapidos S.A.C.,Malecon Grau S/N ,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.39018,-74.52293,19.5,,,
+165721,Estacin De Servicios Brandom,Carretera A Chiclayo - Rodriguez De Mendoza Km 407+080,010607,AMAZONAS,RODRIGUEZ DE MENDOZA,MARISCAL BENAVIDES,-6.37381,-77.5141,26.9,,,29.5
+166132,Alonzo Guerra Eliseo Jamil,Urb. Emanuel Mz. 57 F Lt. 13,250305,UCAYALI,PADRE ABAD,ALEXANDER VON HUMBOLDT,-8.83168,-75.04424,20.0,,,22.0
+166134,Alonzo Guerra Eliseo Jamil,Caserio Villa El Pescador S/N ,250104,UCAYALI,CORONEL PORTILLO,MASISEA,-8.55528,-74.33453,20.0,,,24.0
+166182,Inversiones Vat Empresa Individual De Responsabilidad Limitada,Margen Izquierda Del Rio Napo,160107,LORETO,MAYNAS,NAPO,-2.2168,-74.3923,22.0,,21.0,19.5
+166204,Servicentro Radar Sociedad Comercial De Responsabilidad Limitada,Lote 01 Mz. B De La Hab. Urb. Municipal San Marcos ,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.39618,-74.58312,20.99,,,22.99
+166242,R Moncada Servicios Generales Empresa Individual De Responsabilidad Limitada,"Margen Izquierda Del Rio Marañon, Frente A La Ciudad De Nauta",160301,LORETO,LORETO,NAUTA,-4.51253,-73.57981,21.9,,20.0,22.6
+166265,Mayta Guerra Remigio Angelico,"Carretera Federico Basadre Mz. A Lt. 8, 9, 10,11,13,14 H.U.P. Villa Emlita ",250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.39687,-74.59716,18.59,,,21.08
+166268,Estacion De Servicios La Perla Del Huascayacu S.A.C.,Jr. Bagua S/N Centro Poblado Pueblo Libre,220101,SAN MARTIN,MOYOBAMBA,MOYOBAMBA,-5.8743,-77.1288,23.5,,,26.3
+166346,Montero Najera Miriam Karen,"Carretera Uchiza - Huicte Km. 1.500, Uchiza",221005,SAN MARTIN,TOCACHE,UCHIZA,-8.4429,-76.4615,23.8,,,26.9
+166981,Antonio Ocampo Rodriguez,Av. Progreso S/N Caserio Nuevo Chirimoto,220603,SAN MARTIN,MARISCAL CACERES,HUICUNGO,-6.5523,-77.24142,26.0,,,28.0
+167004,Inversiones Dos Fronteras S.A.C,"Pueblo Joven 9 De Octubre Ii Etapa; Mz. I, Lt. 22A",160112,LORETO,MAYNAS,BELEN,-3.70174,-73.11957,20.6,,19.2,
+167101,Grifos San Pedrito J & L E.I.R.L.,Asentamiento Asociacion De Moradores Del Aa.Hh. Grimaneza Paredes De Nitzuma Mz. 56 Lts. 01 Y 20 (Esquina Jr. Miguel Grau Y Jr. Ciro Alegria),250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.42905,-74.56621,18.7,,,21.0
+167107,Inversiones Cristo Morado S.A.C.,Av. Via De Evitamiento Sur N°1101 Mz. 1 Lt. 1 Urb. Nueva America ,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.4152,-74.54985,20.99,,,22.99
+167236,Grifosol Estaciones De Servicios E.I.R.L.,"Asociacion Pro Vivienda Melita Ruiz De Padilla Manzana E, Lote 1 (Esquina Av. Lloque Yupanqui Y Jr. 29 De Diciembre)",250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.40225,-74.59589,18.5,,,21.1
+167269,Inversiones Peru Combustibles S.A.,Margen Derecha Del Rio Ucayali ,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.38159,-74.51887,20.24,,,22.58
+167725,Ñacari Porras Flor Steffany,Margen Derecho Del Rio Tambo,250201,UCAYALI,ATALAYA,RAIMONDI,-10.72795,-73.7483,22.5,,,27.0
+167819,Estacion Y Multiservicios Secada,Av. Participación Con Pasaje Los Girasoles,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.78606,-73.29072,21.7,,19.1,24.72
+168251,Servicentro Lyanna,"Calle Trujillo Mz. N3, Lote 8A - Aa.Hh. Marginal Manuel Pacaya Cruce Con Av. Circular",160301,LORETO,LORETO,NAUTA,-4.5144,-73.589,24.9,,22.8,
+168301,Corporacion Cogel Empresa Individual De Responsabilidad Limitada,Av. Circular Esquina Con Calle Arica,160301,LORETO,LORETO,NAUTA,-4.51428,-73.58713,24.8,,22.8,26.6
+168491,Inversiones Y Combustibles Gato E.I.R.L.,Calle Padre Alegre Esquina Con Calle 11,160501,LORETO,REQUENA,REQUENA,-5.05584,-73.85054,27.0,,26.0,28.0
+168503,Vicuña Melendres William Marcelo,Carretera Tournavista Km. 16.700- Caserio Nueva Esperanza ,250102,UCAYALI,CORONEL PORTILLO,CAMPOVERDE,-8.62613,-74.80106,17.9,,,22.3
+168507,Combustibles Del Oriente Sac,Carretera Federico Basadre Km. 8.800 Mz. A Lt. 01 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'Proyecto Habilitacion Urbana Las Palmas\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\',250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.39945,-74.60694,19.69,24.99,,21.69
+168793,Multiservicios Camax E.I.R.L,Carretera Fernando Belaunde Terry Mz P 01 Lote 01 Centro Poblado Bajo Huaynabe,221005,SAN MARTIN,TOCACHE,UCHIZA,-8.35317,-76.33763,24.2,25.0,,26.7
+168886,Combustibles Riso & Amc S.A.C.,Via De Evitamiento Tarapoto Km 8.70 – Carretera Fernando Belaunde Terry,220901,SAN MARTIN,SAN MARTIN,TARAPOTO,-6.5356,-76.3685,23.0,25.1,,26.1
+168981,Estacion De Servicios Vilcaplus S.A.C,Av. Peru Cuadra 01 Centro Poblado Nueva Esperanza,221001,SAN MARTIN,TOCACHE,TOCACHE,-8.25343,-76.55517,23.5,24.5,,27.0
+169327,Estacion De Servicios Santa Catalina,Carretera Fernando Belaunde Terry Km. 61 + 700 - Centro Poblado Nuevo Jaen,220602,SAN MARTIN,MARISCAL CACERES,CAMPANILLA,-7.64801,-76.66197,24.5,25.5,,27.0
+170329,Quiñones Risco Bety Isabel,"Carretera Santo Tomas Km. 4, Zona De Expansion, En El Caserio Santo Tomas Nº 4050",160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.7998,-73.3337,21.5,,19.8,23.8
+170846,Riveros Sullca Richard Jhon,Cll. Pablo Zavala Mz. 9 Lt. 10 Centro Poblado Maldonadillo,250201,UCAYALI,ATALAYA,RAIMONDI,-10.74259,-73.7269,23.0,,,25.5
+171313,Compania Operadora De La Selva,Carretera Federico Basadre Km 13.,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.40658,-74.64035,20.85,,,23.39
+171534,Servicentro Dylan E.I.R.L.,Jr. Moises Asayac Mz. 6D Lote 2,250303,UCAYALI,PADRE ABAD,CURIMANA,-8.43418,-75.16105,19.5,,,22.0
+172099,Corporacion Juliesta Sociedad Anonima Cerrada,Sector San Pedro,170303,MADRE DE DIOS,TAHUAMANU,TAHUAMANU,-11.70805,-69.18559,25.0,,,26.5
+172163,Servicentro Mirador De Oro S.R.L.,Sector Villa Rocio,170303,MADRE DE DIOS,TAHUAMANU,TAHUAMANU,-11.67068,-69.21927,25.0,,,26.5
+173229,Multiservicios Ainasho Eirl,Carretera Pe-5N G Km 24+100 Corral Quemado - Cumba,010703,AMAZONAS,UTCUBAMBA,CUMBA,-5.92738,-78.6665,26.0,,,28.5
+173285,Estacion De Servicios  Jireh,Av. Túpac Amaru S/N Cuadra 02 – Centro Poblado Consuelo,220205,SAN MARTIN,BELLAVISTA,SAN PABLO,-6.8243,-76.57664,24.0,25.0,,26.5
+173684,Combustibles Amazonicos Sac,Av. Habilitacion Urbana Municipal Esquina Av. Via De Evitamiento Hab. Urb. Progresiva Acejusa Mz. D Lt. 12-13,250101,UCAYALI,CORONEL PORTILLO,CALLERIA,-8.42175,-74.57439,20.0,,,21.8
+173717,Servicentro Mayta,Fdo.  Nuevo P¿Rogreso Ii Sector Primavera Uu.Cc. 022330 Altura Del Km. 4 De La Carretera Fernando Belaunde Terry ,250305,UCAYALI,PADRE ABAD,ALEXANDER VON HUMBOLDT,-8.8648,-75.0482,18.29,24.49,,20.69
+174679,Estacion De Servicios & Turismo El Rayo S.A.C.,Carretera Fernando Belaunde Terry Km 600+150 De Tocache A Progreso - Caserio Huaynabe,221005,SAN MARTIN,TOCACHE,UCHIZA,-8.35474,-76.33809,23.0,24.0,,26.0
+174773,Grupo Empresarial Campo Verde S.A.C,Carretera Federico Basadre Km. 23 Caserio San Jose ,250102,UCAYALI,CORONEL PORTILLO,CAMPOVERDE,-8.42936,-74.73161,18.98,,,21.39
+174815,Ee.Ss Rio Macho,Carretera Federico Basadre Km. 62.00 Fraccion Del Fdo.Sofia - Monte Alegre ,250304,UCAYALI,PADRE ABAD,NESHUYA,-8.64793,-74.97227,19.99,,,20.69
+174892,Estación De Servicios San Isidro Sociedad Comercial De Responsabilidad Limitada,Villa Rodas Parcela 2-2A Sector Santa Rosa De Lima ,250102,UCAYALI,CORONEL PORTILLO,CAMPOVERDE,-8.59356,-74.91995,18.29,,,20.59
+175097,Magna Consuelo Chavez Ramos,Carretera Chachapoyas - Balsas - Pe - 08B Km 294+150 Sector Golomia,010522,AMAZONAS,LUYA,TINGO,-6.36154,-77.92281,25.2,26.2,,28.2
+175527,De La Cruz Alonzo Miler Romario,Carretera Camopo Verde - Tournavista Km. 15600 Caserio Nueva Esperanza ,250102,UCAYALI,CORONEL PORTILLO,CAMPOVERDE,-8.61538,-74.80286,19.5,,,21.9
+176272,Estación De Servicio La Novia J&R.S.R.L,Carretera Interoceanica En El Centro Poblado De La Novia,170303,MADRE DE DIOS,TAHUAMANU,TAHUAMANU,-11.91677,-69.1228,25.0,,,27.0
+176333,Velsang Comercio Servicio Constructor Sac,Carretera Santo Tomas Km S/N Esquina Con Calle Pampa Hermosasu Pasaje S/N,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.7999,-73.3313,20.8,,19.4,23.0
+176739,Estacion De Servicios Alvalu S.A.C.,Jr. Morona Cdra 01,220404,SAN MARTIN,HUALLAGA,PISCOYACU,-6.98203,-76.77108,23.0,24.0,,25.5
+177051,Servicentro Mares S.A.C.,"Margen Izquierda Rio Tambopata Puerto, Puerto Tambopata - Localidad Puerto Maldonado",170101,MADRE DE DIOS,TAMBOPATA,TAMBOPATA,-12.60495,-69.18455,24.0,,,
+177439,Grifo Ecomax S.A.C,Av. Pasarraya - Carretera Saposoa Pasarraya S/N,220402,SAN MARTIN,HUALLAGA,ALTO SAPOSOA,-6.7695,-76.8131,26.0,,,29.0
+177457,Medina Marquez Juanito,Margen Derecha Del Rio Ucayali ,250107,UCAYALI,CORONEL PORTILLO,MANANTAY,-8.38936,-74.52119,19.5,,,22.0
+177599,X Tram S.A.C.,Calle Juan Pablo Ii Esquina Con Calle San Martin De Porras,160501,LORETO,REQUENA,REQUENA,-5.0617,-73.8503,25.8,,24.8,26.4
+177771,Estacion La Posada Srl,Carretera Iquitos Nauta Km 1.5,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.79643,-73.30262,21.09,,19.68,24.29
+177882,Ruiz Castro Jose Marcial,"Av. Principal - Anexo De Aranjez, Caserio Shucush",010606,AMAZONAS,RODRIGUEZ DE MENDOZA,LONGAR,-6.38979,-77.56466,27.0,28.0,,29.5
+178122,Mijahuanga Coronel Chelita,"Jr. La Primavera S/N, Caserio Pinshapampa",220502,SAN MARTIN,LAMAS,ALONSO DE ALVARADO,-6.35928,-76.77571,22.1,24.0,,27.5
+178318,Cunyas Medina Yelsin Ruben,Pasaje Del Rio Mz. 31 Lt. 48 Caserio Sta. Rosa ,250201,UCAYALI,ATALAYA,RAIMONDI,-10.6788,-73.81734,23.0,,,24.0
+178320,Cunyas Medina Yelsin Ruben,Parcela N° 9 Fundo Jerusalen Caserio Sta. Rosa ,250201,UCAYALI,ATALAYA,RAIMONDI,-10.67885,-73.81739,23.0,,,24.0
+178324,Condori Condori Banher Solin,"Cp. San Luis De Alerta. Otr. Alerta Villa Rocio, Parcela 30248 Km Sn",170303,MADRE DE DIOS,TAHUAMANU,TAHUAMANU,-11.62673,-69.25359,24.0,,,25.95
+178327,Cunyas Medina Yelsin Ruben,Jr. Malecon Mz. 14 Lt. 05 C.P. Maldonadillo ,250201,UCAYALI,ATALAYA,RAIMONDI,-10.73772,-73.72319,23.0,,,24.0
+178573,Magna Tafur Alvarez De Lizardo,Carretera San Nicolas - Mendoza Km.3+200.Sector Cruzpata,010601,AMAZONAS,RODRIGUEZ DE MENDOZA,SAN NICOLAS,-6.40703,-77.46008,26.5,,,28.5
+178604,Grupo Multiservicios Ecoloreto E.I.R.L.,Km. 1 C.P. Nuevo Loreto - Sector Catahuayco,160604,LORETO,UCAYALI,PAMPA HERMOSA,-7.21502,-76.06699,19.8,,19.8,23.8
+178667,Grifo Tushmo,Lote 2 Mz 6A Del Centro Poblado De San Pablo De Tushmo Parcela 2,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.36186,-74.59634,20.98,,,22.3
+178701,Grifo Petrochicas,Av. Circunvalación Nro. 1550,220901,SAN MARTIN,SAN MARTIN,TARAPOTO,-6.4736,-76.3664,23.6,24.9,,25.9
+178703,Cunyas Medina Yelsin Ruben,Av.L Camisea Mz. 72 A Lt. 05 C.P. Maldonadillo,250201,UCAYALI,ATALAYA,RAIMONDI,-10.75348,-73.7175,23.0,,,24.0
+178992,Estacion De Servicios Full Peru E.I.R.L.,Esquina Jr. Iquitos Cdra. 10 Con Jr. Arica,220801,SAN MARTIN,RIOJA,RIOJA,-6.0614,-77.17208,23.5,24.5,,26.5
+179057,Ahumada Perea Jose Manuel,Car. Fernando Belaunde Terry Km. 472,220705,SAN MARTIN,PICOTA,PUCACACA,-6.84226,-76.3396,20.6,,,26.6
+179083,Bety Isabel Quiñones Risco,"Calle San Valentín Mz. 09, Lote 01, Zona De Habilitación Urbana 15 De Mayo",160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.76765,-73.29448,21.7,,20.1,23.5
+179084,Rosa Vargas Frank Cristhian,Carretera Interoceánica C.P. San Luis De Alerta,170303,MADRE DE DIOS,TAHUAMANU,TAHUAMANU,-11.68099,-69.21278,26.0,,,26.0
+180009,Lopez Gonzales Tulio Sergio,Manzana 5 Lote 71 (Esquina Jr. Mariscal Castilla Con Jr. Sargento Lores,160606,LORETO,UCAYALI,VARGAS GUERRA,-6.9115,-75.16071,24.0,,,24.0
+180784,Coorporacion J.K.A.M. S.R.L.,Predio Denominado San Hilario En El Sector Alerta,170303,MADRE DE DIOS,TAHUAMANU,TAHUAMANU,-11.65099,-69.2415,24.5,25.5,,26.5
+180817,Raframax S.A.C,"Carretera Fernando Belaunde Terry Esquina Con Jiron Huallaga, Sector Puerto Rico",220706,SAN MARTIN,PICOTA,SAN CRISTOBAL,-6.99086,-76.42614,22.5,24.0,,25.0
+180892,Grupo Evisa Extract S.A.C,Sector Valparaiso Centro Poblado Santa Maria,170303,MADRE DE DIOS,TAHUAMANU,TAHUAMANU,-11.88257,-68.9957,25.0,,,27.0
+180908,Estacion De Servicios Jerusalen S.R.L.,"Mz. 09 Lote 11° Y 12, Av. Las Delicias Intersección Av. Canaan, Sector Segunda Jerusalen, I Etapa",220803,SAN MARTIN,RIOJA,ELIAS SOPLIN VARGAS,-5.99244,-77.27769,23.2,24.5,,26.0
+181145,Estacion De Servicios Maravillas E.I.R.L.,Carretera Interoceanica Centro Poblado San Pedro,170303,MADRE DE DIOS,TAHUAMANU,TAHUAMANU,-11.70879,-69.18504,25.5,,,26.6
+182377,Donaires Orosco Aureliano Francisco,Car. Interoceanica Km. 121 C.P. San Luis De Alerta (A 200 Metros De Alerta),170303,MADRE DE DIOS,TAHUAMANU,TAHUAMANU,-11.64792,-69.24185,24.7,25.8,,26.0
+183659,Servicentro Gato 4,"Calle Juan Pablo Ii Mz 63, Lotes 17, 18, 19 - Aa.Hh. Requena, I Etapa, Zona B",160501,LORETO,REQUENA,REQUENA,-5.06175,-73.84975,27.0,,26.0,28.0
+183856,Estacion De Servicios Vesca E.I.R.L.,Av. Abelardo Quiñones Km 4.5 Esquina Con Calle 10 De Agosto,160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.779,-73.29275,20.8,,19.2,22.8
+183952,Estacion De Servicios Corazon De Jesus Srl,Calle Pakun S/N Centro Poblado Chiriaco,010205,AMAZONAS,BAGUA,IMAZA,-5.16796,-78.2883,23.8,25.8,,26.2
+184267,De La Cruz Alonzo Evelyn Diane,Caserio Primavera -Carretera Fernando Belaunde Terry Km. 04,250305,UCAYALI,PADRE ABAD,ALEXANDER VON HUMBOLDT,-8.8681,-75.0471,18.4,,,20.8
+184268,Estacion De Servicios El Amanecer S.R.L.,Carretera Federico Basadre Km. 10.500 Mz A Lote 1 Habilitación Urbana – San Vicente ,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.4025,-74.61971,18.38,,,20.65
+184513,Servicentro Las Camelias Srl,"Calle Las Camelias, Interseccion Con Psj Amazonas",160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.77152,-73.29726,21.1,,19.2,23.0
+184579,El Grifo Del Oriente S.A.C.,Carretera Federico Basadre Km. 25.500 Fdo. Makondo Caserio San Jose ,250102,UCAYALI,CORONEL PORTILLO,CAMPOVERDE,-8.43815,-74.75047,18.95,,,21.3
+184609,Alonzo Villanueva Sergio Ignacio,Carretera De Acceso A Campo Verde - Nueva Requena Mz. A 6- Lt. 02,250106,UCAYALI,CORONEL PORTILLO,NUEVA REQUENA,-8.3211,-74.8576,20.0,,,22.5
+184624,Mendoza Cienfuegos Telmo Jesus,Av. Cajamarca N° 726,010206,AMAZONAS,BAGUA,LA PECA,-5.61088,-78.44042,24.5,,,26.5
+184925,Servicentro Japay Ii Sac,"Calle Barrios Altos Mz D, Lote 1, Aahh Jorge Monasi",160113,LORETO,MAYNAS,SAN JUAN BAUTISTA,-3.76426,-73.28271,21.8,,19.7,23.99
+185110,Estacion De Servicios Enrique S.A.C.,"Av. Via De Evitamiento Mz. “Y\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"", Lote 01 Y Colinda Con Calle Sin Nombre",220503,SAN MARTIN,LAMAS,BARRANQUITA,-6.24501,-76.0309,24.29,25.99,,27.59
+185428,Servicentro J & N E.I.R.L.,Av. Villa Selva Esquina Jr. Conococha Mz.  33 Lt. 8-Ah. Villa Selva,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.3825,-74.6045,19.49,,,21.0
+185445,Grifo Flotante Domi E.I.R.L.,Carretera Federico Basadre- Fraccion Parcelacion Hidayacu Parcela 1E,250307,UCAYALI,PADRE ABAD,BOQUERON,-9.08079,-75.70709,19.2,,,21.3
+185460,Tanchiva Lopez Linder,Caserío Francisco Bolognesi Frente A La Carretera Belaúnde Terry - Campanilla (San Martin),220602,SAN MARTIN,MARISCAL CACERES,CAMPANILLA,-7.50558,-76.65725,25.0,27.0,,
+185918,Gasocentro Pizana,Carretera Fernando Belaunde Terry Sn - Pizana,221003,SAN MARTIN,TOCACHE,POLVORA,-8.00339,-76.64797,23.5,24.5,,25.99
+186334,Mayta Rojas Covelina,Manzana 4 Lote 01 Del Aa.Hh. La Sagrada Familia De Nueva Pucallpa Km. 13.200,250105,UCAYALI,CORONEL PORTILLO,YARINACOCHA,-8.40912,-74.64699,18.8,,,20.7
+186847,Servicentro Petro Motors E.I.R.L.,Carretera Fernando Belaunde Terry. Fdo. La Frontera Sector Primavera Uu.Cc. 022379,250305,UCAYALI,PADRE ABAD,ALEXANDER VON HUMBOLDT,-8.86745,-75.04791,18.54,,,20.89
+187597,Estacion De Servicios Luciana Empresa Individual De Responsabilidad Limitada,Calle Pucallpa Esquina Con Calle Jose Olaya,160601,LORETO,UCAYALI,CONTAMANA,-7.3462,-75.01243,22.0,,,26.0
+188033,Bravo Ramos Robinson,Jr. Elias Piñon S/N Barrio Rosaio De La Comunidad Nativa De Sepahua ,250202,UCAYALI,ATALAYA,SEPAHUA,-11.14304,-73.04541,23.0,,,24.0
+188134,Servicentro Jepelacio S.A.C.,Jr. Moyobamba S/N Sector El Huracan,220104,SAN MARTIN,MOYOBAMBA,JEPELACIO,-6.1067,-76.92558,25.0,,,26.2
+188193,Vasquez Zamora Jose Alexander,"Carretera Nuevo Loreto - Shamboyacu Km 4, Del Sector Alto Victoria C.P. Nuevo Loreto",160604,LORETO,UCAYALI,PAMPA HERMOSA,-7.20281,-76.06979,22.5,,,25.5
