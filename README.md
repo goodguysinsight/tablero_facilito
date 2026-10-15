@@ -24,18 +24,18 @@ También puede abrirse descargando `index.html` y abriéndolo en el navegador.
 
 ## Fuente de datos
 
+- **Ubicación de establecimientos:** **registro oficial georreferenciado de OSINERGMIN** — capa ArcGIS `12_BD_Dash_HL_GrifosEESS_gdb` (Hidrocarburos Líquidos — Grifos/EESS), con ubigeo, coordenadas y `COD_OSINERGMIN`.
 - **Precios:** OSINERGMIN — plataforma **Facilito** (https://www.facilito.gob.pe). Precios reportados por los propios operadores de los establecimientos.
 - **Cartografía (límites distritales y provinciales):** Registro Nacional de Límites (**RENLIM**) — Secretaría de Demarcación y Organización Territorial (**SDOT – PCM**), vigencia 2023 (referenciales).
 
 ### Cobertura (importante)
 
-Facilito solo publica **coordenadas geográficas de una parte** de los grifos. Cobertura actual: **967 establecimientos geolocalizados**.
+El mapa muestra **3 052 grifos y estaciones de servicio** del registro oficial de OSINERGMIN (ubicación nacional por ubigeo). El **precio** está disponible en **967** de ellos:
 
-- **Líquidos** (gasoholes, gasolina 84, diesel): **615** establecimientos, concentrados en la **Amazonía** (Ucayali, Loreto, San Martín, Madre de Dios, Amazonas).
-- **Gas Natural Vehicular (GNV):** **352** establecimientos, que añaden cobertura de **Lima, Callao, Ica y costa norte** (corredor del gas natural).
-- **GLP** (automotor y envasado): **no está geolocalizado** en Facilito (el endpoint no devuelve coordenadas), por lo que **no se incluye**.
+- **Líquidos** (gasoholes, gasolina 84, diesel): **615** grifos geolocalizados en Facilito, concentrados en la **Amazonía** (Ucayali, Loreto, San Martín, Madre de Dios, Amazonas).
+- **Gas Natural Vehicular (GNV):** **352** grifos, con cobertura de **Lima, Callao, Ica y costa norte** (corredor del gas natural).
 
-La mayoría de grifos de **líquidos** de la costa y la sierra (Lima incluida) **no tienen coordenadas** en Facilito, por lo que no aparecen en el mapa. El tablero **no representa la totalidad** de establecimientos del país. El motor está preparado para un dataset nacional: basta reemplazar los datos (ver esquema) para ampliar la cobertura.
+Los grifos **sin precio** se muestran como punto gris ("solo ubicación"). Facilito no publica coordenadas del resto de precios ni de **GLP**, así que el precio nacional no es completo: **los coropléticos y estadísticos usan únicamente los grifos con precio**. El motor está preparado para un dataset nacional de precios (ver esquema): basta cargarlo para que el precio cubra todo el país.
 
 ## Datos
 
@@ -51,6 +51,7 @@ La mayoría de grifos de **líquidos** de la costa y la sierra (Lima incluida) *
 | `latitud`, `longitud` | Coordenadas (WGS84) |
 | `regular`, `premium`, `g84`, `diesel` | Precio en soles por galón (vacío si no se reporta) |
 | `gnv_m3` | Precio de Gas Natural Vehicular en soles por m³ (vacío si no aplica) |
+| `tiene_precio` | "Si" si el establecimiento tiene al menos un precio reportado; "No" si es solo ubicación (registro) |
 
 ## Metodología de extracción
 
