@@ -22,10 +22,15 @@ También puede abrirse descargando `index.html` y abriéndolo en el navegador.
 - **Clic en una zona** la fija en el panel y en el Top 10; el botón **"Ver todo"** regresa a la vista nacional.
 - Diseño **responsive** para escritorio y celular.
 
+Dos pestañas:
+- **Mapa de precios por grifo** — lo descrito arriba (ubicación nacional + precio donde existe).
+- **Evolución y distribución (nacional)** — serie **diaria** del precio (mediana con banda **P25–P75** y líneas de **mínimo/máximo**), **histograma** de distribución y resumen, para los **6 combustibles** (incluye GLP granel y envasado), a partir de la lista de precios diaria de OSINERGMIN (**1 ene – 28 feb 2026**, datos anonimizados sin ubicación).
+
 ## Fuente de datos
 
 - **Ubicación de establecimientos:** **registro oficial georreferenciado de OSINERGMIN** — capa ArcGIS `12_BD_Dash_HL_GrifosEESS_gdb` (Hidrocarburos Líquidos — Grifos/EESS), con ubigeo, coordenadas y `COD_OSINERGMIN`.
-- **Precios:** OSINERGMIN — plataforma **Facilito** (https://www.facilito.gob.pe). Precios reportados por los propios operadores de los establecimientos.
+- **Precios (mapa):** OSINERGMIN — plataforma **Facilito** (https://www.facilito.gob.pe). Precios reportados por los propios operadores de los establecimientos (vía plataforma PRICE).
+- **Precios (evolución nacional):** OSINERGMIN — **Lista de precios de combustibles, diaria** (datos abiertos), serie ene–feb 2026, anonimizada (sin ubicación); alimenta la pestaña de evolución y distribución.
 - **Cartografía (límites distritales y provinciales):** Registro Nacional de Límites (**RENLIM**) — Secretaría de Demarcación y Organización Territorial (**SDOT – PCM**), vigencia 2023 (referenciales).
 
 ### Cobertura (importante)
