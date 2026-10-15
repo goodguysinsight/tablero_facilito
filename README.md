@@ -33,14 +33,12 @@ Dos pestañas:
 - **Precios (evolución nacional):** OSINERGMIN — **Lista de precios de combustibles, diaria** (datos abiertos), serie ene–feb 2026, anonimizada (sin ubicación); alimenta la pestaña de evolución y distribución.
 - **Cartografía (límites distritales y provinciales):** Registro Nacional de Límites (**RENLIM**) — Secretaría de Demarcación y Organización Territorial (**SDOT – PCM**), vigencia 2023 (referenciales).
 
-### Cobertura (importante)
+### Cobertura
 
-El mapa muestra **3 052 grifos y estaciones de servicio** del registro oficial de OSINERGMIN (ubicación nacional por ubigeo). El **precio** está disponible en **967** de ellos:
+**Cobertura nacional de precios:** ~**5 500 grifos** con precio en **25 departamentos · 187 provincias · 931 distritos**, obtenidos del buscador público de Facilito barriendo por provincia (196). Los coropléticos, estadísticos (mín/prom/máx/mediana, brecha, ahorro) y el **Top‑10** se calculan por **ubigeo** con esos grifos, a los 3 niveles.
 
-- **Líquidos** (gasoholes, gasolina 84, diesel): **615** grifos geolocalizados en Facilito, concentrados en la **Amazonía** (Ucayali, Loreto, San Martín, Madre de Dios, Amazonas).
-- **Gas Natural Vehicular (GNV):** **352** grifos, con cobertura de **Lima, Callao, Ica y costa norte** (corredor del gas natural).
-
-Los grifos **sin precio** se muestran como punto gris ("solo ubicación"). Facilito no publica coordenadas del resto de precios ni de **GLP**, así que el precio nacional no es completo: **los coropléticos y estadísticos usan únicamente los grifos con precio**. El motor está preparado para un dataset nacional de precios (ver esquema): basta cargarlo para que el precio cubra todo el país.
+- **Mapa de puntos:** cada grifo con precio se pinta por su precio cuando se le pudo asignar coordenada del **registro georreferenciado de OSINERGMIN**; como los nombres comerciales de Facilito no siempre empatan con el registro, parte de los grifos con precio aún no tienen punto en el mapa, **pero sí entran en todos los cálculos por ubigeo**. Los grifos registrados sin precio se muestran en gris.
+- **GNV** en S/ por m³. **GLP** y la **evolución diaria** se ven en la pestaña de distribución nacional (datos anonimizados sin ubicación).
 
 ## Datos
 
