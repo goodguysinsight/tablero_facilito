@@ -13,7 +13,7 @@ También puede abrirse descargando `index.html` y abriéndolo en el navegador.
 
 ## Funcionalidades
 
-- **Selector de combustible:** Gasohol Regular, Gasohol Premium, Gasolina 84, Diesel B5 S‑50 (soles por galón) y **Gas Natural Vehicular – GNV** (soles por m³).
+- **Selector de combustible:** Gasohol Regular, Gasohol Premium, Gasolina 84, Diesel B5 S‑50 y **GLP Automotor** (soles por galón); **Gas Natural Vehicular – GNV** (soles por m³); y **GLP Envasado** (soles por balón de 10 kg).
 - **Tres niveles territoriales:** Departamental, Provincial y Distrital, con **filtros en cascada** (Departamento → Provincia → Distrito).
 - **Mapa coroplético** coloreado por el **precio mínimo** del combustible elegido (tono más oscuro = más barato).
 - **Panel por zona:** precio **mínimo, promedio, máximo y mediana**, número de establecimientos, **brecha** de precios (máx − mín) y **ahorro potencial** por galón.
@@ -35,10 +35,10 @@ Dos pestañas:
 
 ### Cobertura
 
-**Cobertura nacional de precios:** ~**5 450 grifos** con precio en **26 departamentos · 188 provincias · 932 distritos**, obtenidos del buscador público de Facilito barriendo por provincia (196). Los coropléticos, estadísticos (mín/prom/máx/mediana, brecha, ahorro) y el **Top‑10** se calculan por **ubigeo** con esos grifos, a los 3 niveles.
+**Cobertura nacional de precios:** líquidos, GNV, **GLP automotor** y **GLP envasado** en **25 departamentos · 187 provincias · 990 distritos**, obtenidos del buscador público de Facilito barriendo por provincia (196). Los coropléticos, estadísticos (mín/prom/máx/mediana, brecha, ahorro) y el **Top‑10** se calculan por **ubigeo** con esos establecimientos, a los 3 niveles.
 
-- **Mapa de puntos:** cada grifo con precio se pinta por su precio cuando se le pudo asignar coordenada. El enlace del grifo en Facilito expone su **código OSINERGMIN**, con el que el cruce contra el **registro georreferenciado de OSINERGMIN** es **exacto** (clave única); así **~2 900 grifos con precio** tienen punto en el mapa. Los grifos con precio cuyo código **aún no figura en el registro público georreferenciado** (establecimientos nuevos) no tienen coordenada oficial, **pero sí entran en todos los cálculos por ubigeo**. Los grifos registrados sin precio se muestran en gris.
-- **GNV** en S/ por m³. **GLP** y la **evolución diaria** se ven en la pestaña de distribución nacional (datos anonimizados sin ubicación).
+- **Mapa de puntos:** cada establecimiento con precio se pinta por su precio cuando se le pudo asignar coordenada. El enlace del establecimiento en Facilito expone su **código OSINERGMIN**, con el que el cruce contra el **registro georreferenciado de OSINERGMIN** es **exacto** (clave única). Los establecimientos nuevos cuyo código **aún no figura en el registro público georreferenciado** no tienen coordenada oficial, **pero sí entran en todos los cálculos por ubigeo**. Los grifos registrados sin precio se muestran en gris.
+- **Unidades:** líquidos y **GLP automotor** en S/ por galón; **GNV** en S/ por m³; **GLP envasado** en S/ por balón de 10 kg. La **evolución diaria** nacional se ve en la otra pestaña (datos anonimizados sin ubicación).
 
 ## Datos
 
@@ -54,6 +54,8 @@ Dos pestañas:
 | `latitud`, `longitud` | Coordenadas (WGS84) |
 | `regular`, `premium`, `g84`, `diesel` | Precio en soles por galón (vacío si no se reporta) |
 | `gnv_m3` | Precio de Gas Natural Vehicular en soles por m³ (vacío si no aplica) |
+| `glp_auto_gal` | Precio de GLP Automotor en soles por galón (vacío si no aplica) |
+| `glp_env_balon10kg` | Precio de GLP Envasado, balón de 10 kg, en soles (vacío si no aplica) |
 | `tiene_precio` | "Si" si el establecimiento tiene al menos un precio reportado; "No" si es solo ubicación (registro) |
 
 ## Metodología de extracción
