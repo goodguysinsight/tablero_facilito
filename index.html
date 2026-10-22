@@ -352,17 +352,28 @@ footer.note b{color:var(--ink)}
     var arr=stationsWithFuel().filter(inScope).map(function(s){return {s:s,p:s.pr[state.fuel]};})
       .sort(function(a,b){return a.p-b.p;}).slice(0,10);
     document.getElementById('topTitle').textContent='Top 10 más barato — '+FUELS[state.fuel]+(state.pinned?(' · '+cap(state.pinned.n)):'');
-    var mn=arr.length?arr[0].p:0, mx=arr.length?arr[arr.length-1].p:1, rng=(mx-mn)||1;
+    var P=ptStats();
     var html=arr.map(function(it,i){
-      var t=(it.p-mn)/rng, ci=Math.min(5,Math.floor(t*5)), col=RAMP[ci];
+      var c=ptClass(it.p,P), col=PT_COL[c];
       var hasxy=isFinite(it.s.la)&&isFinite(it.s.lo);
       var link=hasxy?('<a href="https://www.google.com/maps/search/?api=1&query='+it.s.la+','+it.s.lo+'" target="_blank" rel="noopener">Mapa ↗</a>'):'';
-      return '<div class="ti"><div class="rk" style="background:'+col+'">'+(i+1)+'</div>'+
+      return '<div class="ti"><div class="rk" style="background:'+col+';color:'+PT_TXT[c]+'">'+(i+1)+'</div>'+
         '<div class="nm"><b>'+cap(it.s.u)+'</b><span>'+cap(it.s.dist||'')+'</span></div>'+
         '<div class="pz">'+fmtS(it.p)+link+'</div></div>';
     }).join('');
     document.getElementById('topRows').innerHTML=html||'<div style="font-size:.66rem;color:var(--muted)">Sin establecimientos en esta zona.</div>';
   }
+
+  // ---- clases de los puntos por precio (grifos del ámbito visible) ----
+  // 0 mínimo · 1 del 2.º más barato al 25% · 2 25%–50% · 3 50%–75% · 4 75% a más
+  var PT_COL=['#16a34a','#1d4ed8','#0ea5e9','#93c5fd','#dc2626'];
+  var PT_TXT=['#fff','#fff','#fff','#0b2a4a','#fff'];
+  function qtl(a,p){if(!a.length)return null;var h=(a.length-1)*p,l=Math.floor(h);return a[l]+(a[Math.min(l+1,a.length-1)]-a[l])*(h-l);}
+  function ptStats(){
+    var ps=stationsWithFuel().filter(inScope).map(function(s){return s.pr[state.fuel];}).sort(function(a,b){return a-b;});
+    return {n:ps.length,mn:ps[0],q1:qtl(ps,.25),q2:qtl(ps,.5),q3:qtl(ps,.75),mx:ps[ps.length-1]};
+  }
+  function ptClass(v,P){if(v<=P.mn)return 0;if(v<=P.q1)return 1;if(v<=P.q2)return 2;if(v<=P.q3)return 3;return 4;}
 
   // ---- legend ----
   function legend(){
@@ -375,7 +386,15 @@ footer.note b{color:var(--ink)}
     }
     for(var i=0;i<labs.length;i++)rows+='<div class="rowc"><span class="sw" style="background:'+RAMP[i]+'"></span>'+labs[i]+'</div>';
     rows+='<div class="rowc"><span class="sw" style="background:var(--nodata)"></span>Zona sin dato</div>';
-    rows+='<div class="rowc" style="margin-top:4px"><span class="sw" style="width:11px;height:11px;border-radius:50%;background:#15663b"></span>Grifo con precio</div>';
+    var P=ptStats(),dot=function(c){return '<span class="sw" style="width:11px;height:11px;border-radius:50%;background:'+c+';border-color:rgba(0,0,0,.25)"></span>';};
+    if(P.n){
+      rows+='<div class="lt" style="margin-top:8px">Grifos según precio</div>';
+      rows+='<div class="rowc">'+dot(PT_COL[0])+'Precio mínimo · S/ '+P.mn.toFixed(2)+'</div>';
+      rows+='<div class="rowc">'+dot(PT_COL[1])+'Del 2.º más barato al 25% · hasta S/ '+P.q1.toFixed(2)+'</div>';
+      rows+='<div class="rowc">'+dot(PT_COL[2])+'25% – 50% · S/ '+P.q1.toFixed(2)+' – '+P.q2.toFixed(2)+'</div>';
+      rows+='<div class="rowc">'+dot(PT_COL[3])+'50% – 75% · S/ '+P.q2.toFixed(2)+' – '+P.q3.toFixed(2)+'</div>';
+      rows+='<div class="rowc">'+dot(PT_COL[4])+'75% a más · más de S/ '+P.q3.toFixed(2)+'</div>';
+    }
     rows+='<div class="rowc"><span class="sw" style="width:8px;height:8px;border-radius:50%;background:var(--dot)"></span>Grifo (solo ubicación)</div>';
     document.getElementById('lgRows').innerHTML=rows;
   }
@@ -395,9 +414,11 @@ footer.note b{color:var(--ink)}
       var m=L.circleMarker([s.la,s.lo],{radius:2.6,weight:0,fillColor:tok('--dot'),fillOpacity:.7});
       m.bindPopup(popupHtml(s)); m.addTo(markerLayer);
     });
-    priced.forEach(function(s){
-      var v=s.pr[state.fuel], t=(v-mn)/rng, ci=Math.min(5,Math.floor(t*5)), col=RAMP[ci];
-      var m=L.circleMarker([s.la,s.lo],{radius:5,weight:1,color:tok('--ring'),fillColor:col,fillOpacity:.96});
+    var P=ptStats();
+    // los más caros se dibujan primero para que los más baratos queden encima
+    priced.map(function(s){return {s:s,c:ptClass(s.pr[state.fuel],P)};}).sort(function(a,b){return b.c-a.c;}).forEach(function(o){
+      var s=o.s, col=PT_COL[o.c];
+      var m=L.circleMarker([s.la,s.lo],{radius:o.c===0?7:5,weight:o.c===0?2:1,color:tok('--ring'),fillColor:col,fillOpacity:.96});
       m.bindPopup(popupHtml(s)); m.addTo(markerLayer);
     });
     markerLayer.addTo(map);
