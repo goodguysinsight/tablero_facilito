@@ -570,8 +570,9 @@ footer.note b{color:var(--ink)}
     label();
     document.dispatchEvent(new Event('gg-theme'));
   });
-  if (window.matchMedia) { var mq = matchMedia('(prefers-color-scheme: dark)'); if (mq.addEventListener) mq.addEventListener('change', label); }
+  if (window.matchMedia) { var mq = matchMedia('(prefers-color-scheme: dark)'); if (mq.addEventListener) mq.addEventListener('change', function () { label(); if (!root.dataset.theme) document.dispatchEvent(new Event('gg-theme')); }); }
   label();
+  if (root.dataset.theme) document.dispatchEvent(new Event('gg-theme'));
 })();
 </script>
 </body>
