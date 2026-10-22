@@ -37,7 +37,7 @@ header.bar{padding:9px 14px;background:var(--surface);border-bottom:1px solid va
 .seg button[aria-pressed=true]{background:var(--brand);color:#fff}
 select{border:1px solid var(--line);border-radius:7px;padding:5px 7px;font-size:.72rem;background:var(--field);color:var(--ink);max-width:40vw}
 .btn{border:1px solid var(--line);background:var(--field);color:var(--ink);border-radius:7px;padding:6px 10px;font-size:.72rem;cursor:pointer;font-weight:600}
-main{position:relative;flex:none;width:100%;height:1040px}
+main{position:relative;flex:none;width:100%;height:clamp(520px,calc(100vh - 16px),1040px);scroll-margin-top:8px}
 #map{position:absolute;inset:0;background:var(--map-bg)}
 .panel{position:absolute;z-index:500;background:var(--surface);border:1px solid var(--line);
   border-radius:12px;box-shadow:0 6px 22px rgba(0,0,0,.18)}
@@ -64,6 +64,7 @@ main{position:relative;flex:none;width:100%;height:1040px}
 #top .ti .nm b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:.68rem}
 #top .ti .nm span{color:var(--muted);font-size:.6rem}
 #top .ti .pz{font-weight:800;text-align:right}
+#top .ti .pz .noxy{display:block;font-size:.56rem;font-weight:600;color:var(--muted)}
 #top .ti .pz a{display:block;font-size:.56rem;font-weight:600;color:var(--brand);text-decoration:none}
 #legend{bottom:12px;right:12px;padding:9px 11px;font-size:.64rem;max-width:230px}
 #legend .lt{font-weight:800;font-size:.68rem;margin-bottom:5px}
@@ -95,6 +96,12 @@ footer.note b{color:var(--ink)}
 .gg-theme:hover{border-color:var(--muted)}
 .gg-theme:focus-visible,.tabbar .tab:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
 @media (max-width:600px){.tabbar{flex-wrap:wrap}}
+.lg-tog{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;border:0;background:none;color:var(--ink);font:inherit;font-size:.66rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em;padding:0 0 6px;cursor:pointer}
+.lg-tog:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+#legend.closed .lg-tog{padding:0}
+#legend.closed #lgBody{display:none}
+#legend.closed .lg-car{transform:rotate(-90deg)}
+#legend{max-height:calc(100% - 24px);overflow:auto}
 .upd{position:absolute;top:12px;left:56px;z-index:600;display:flex;align-items:center;gap:8px;max-width:calc(100% - 380px);
   background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 14px 6px 10px;box-shadow:0 3px 12px rgba(0,0,0,.14);pointer-events:none}
 .upd b{display:block;font-size:.74rem;font-weight:800;color:var(--ink);line-height:1.2}
@@ -221,9 +228,12 @@ footer.note b{color:var(--ink)}
     <div id="topRows"></div>
   </div>
   <div class="panel" id="legend">
+    <button class="lg-tog" id="lgTog" type="button" aria-expanded="true" aria-controls="lgBody"><span>Leyenda</span><span class="lg-car" aria-hidden="true">▾</span></button>
+    <div id="lgBody">
     <div class="lt" id="lgTitle">Precio mínimo (S/ por galón)</div>
     <div id="lgRows"></div>
     <div style="margin-top:5px;color:var(--muted)">Tono más oscuro = más barato</div>
+    </div>
   </div>
 </main>
 </div><!-- /viewMap -->
@@ -280,7 +290,7 @@ footer.note b{color:var(--ink)}
   function un(){return UNIT[state.fuel];}
   var RAMP=['#0a3d24','#15663b','#2f9e5f','#86c9a2','#cfe9db','#f1f6f2']; // dark=cheap -> pale=expensive
   var state={fuel:'regular',level:'dep',pinned:null};
-  var map=L.map('map',{scrollWheelZoom:false,preferCanvas:true,zoomControl:true}).setView([-8.5,-74.5],6);
+  var map=L.map('map',{scrollWheelZoom:false,preferCanvas:true,zoomControl:true,zoomSnap:0.25,zoomDelta:0.5}).setView([-8.5,-74.5],6);
   // los grifos van en su propio panel (encima de las regiones) para que la región fijada no los tape
   map.createPane('pts');map.getPane('pts').style.zIndex=450;
   var ptsR=L.canvas({pane:'pts',padding:.5});
@@ -346,15 +356,23 @@ footer.note b{color:var(--ink)}
     var g=document.getElementById('iGrid');
     if(!d){g.innerHTML='<div class="cell" style="grid-column:1/3"><div class="lab">Sin establecimientos geolocalizados</div><div class="val" style="font-size:.8rem">—</div></div>';return;}
     var brecha=d.max-d.min, ahorro=d.max-d.min;
+    // cuántos grifos de la zona tienen coordenadas (solo esos se dibujan como puntos)
+    var hasXY=function(s){return isFinite(s.la)&&isFinite(s.lo)&&s.la<=0.5&&s.la>=-19&&s.lo<=-68&&s.lo>=-82;};
+    var zs=stationsWithFuel().filter(function(s){return !p||keyOf(s,state.level)===p.k;});
+    var nxy=zs.filter(hasXY).length;
+    var minXY=zs.some(function(s){return s.pr[state.fuel]===d.min&&hasXY(s);}),maxXY=zs.some(function(s){return s.pr[state.fuel]===d.max&&hasXY(s);});
+    var miss=[];if(!minXY)miss.push('el precio mínimo');if(!maxXY)miss.push('el precio máximo');
+    var aviso=nxy<zs.length?'<div class="cell" style="grid-column:1/3;background:var(--chip)"><div class="ref" style="margin:0;color:var(--ink)"><b>'+nxy+' de '+zs.length+'</b> grifos tienen ubicación registrada y aparecen como puntos en el mapa.'+
+      (miss.length?' '+(miss.length===2?'El precio mínimo y el máximo corresponden':'El '+miss[0].replace('el ','')+' corresponde')+' a grifos sin ubicación; puede verlos en el Top 10.':'')+'</div></div>':'';
     g.innerHTML=
       '<div class="cell min"><div class="lab">Precio mínimo</div><div class="val">'+fmtS(d.min)+'</div></div>'+
       '<div class="cell max"><div class="lab">Precio máximo</div><div class="val">'+fmtS(d.max)+'</div></div>'+
       '<div class="cell"><div class="lab">Promedio</div><div class="val">'+fmtS(d.avg)+'</div></div>'+
       '<div class="cell"><div class="lab">Mediana</div><div class="val">'+fmtS(d.med)+'</div></div>'+
-      '<div class="cell"><div class="lab">Establecimientos</div><div class="val">'+d.n+'</div></div>'+
+      '<div class="cell"><div class="lab">Establecimientos</div><div class="val">'+d.n+' <small>· '+nxy+' en el mapa</small></div></div>'+
       '<div class="cell"><div class="lab">Brecha (máx−mín)</div><div class="val">'+fmtS(brecha)+'</div></div>'+
       '<div class="cell" style="grid-column:1/3"><div class="lab">Ahorro potencial referencial (elegir el más barato)</div><div class="val" style="color:var(--brand)">'+fmtS(ahorro)+' <small>por '+un()+'</small></div>'+
-      '<div class="ref">Referencial: puede variar según la cantidad adquirida, la distancia al establecimiento y la vigencia de los precios.</div></div>';
+      '<div class="ref">Referencial: puede variar según la cantidad adquirida, la distancia al establecimiento y la vigencia de los precios.</div></div>'+aviso;
   }
 
   // ---- Top 10 ----
@@ -371,7 +389,7 @@ footer.note b{color:var(--ink)}
     var html=arr.map(function(it,i){
       var c=ptClass(it.p,P), col=PT_COL[c];
       var hasxy=isFinite(it.s.la)&&isFinite(it.s.lo);
-      var link=hasxy?('<a href="https://www.google.com/maps/search/?api=1&query='+it.s.la+','+it.s.lo+'" target="_blank" rel="noopener">Mapa ↗</a>'):'';
+      var link=hasxy?('<a href="https://www.google.com/maps/search/?api=1&query='+it.s.la+','+it.s.lo+'" target="_blank" rel="noopener">Mapa ↗</a>'):'<span class="noxy">sin ubicación</span>';
       return '<div class="ti"><div class="rk" style="background:'+col+';color:'+PT_TXT[c]+'">'+(i+1)+'</div>'+
         '<div class="nm"><b>'+cap(it.s.u)+'</b><span>'+cap(it.s.dist||'')+'</span></div>'+
         '<div class="pz">'+fmtS(it.p)+link+'</div></div>';
@@ -488,18 +506,13 @@ footer.note b{color:var(--ink)}
   function propsByKey(lv,k){var a=GEO[lv].features;for(var i=0;i<a.length;i++)if(a[i].properties.k===k)return a[i].properties;return null;}
   function gotoLevel(lv){state.level=lv;[].forEach.call(document.getElementById('lvl').children,function(x){x.setAttribute('aria-pressed',x.dataset.l===lv);});setLayer(lv);}
   function flyKey(lv,k){
-    // provincia o distrito: encuadra los grifos de la zona (sin valores extremos), no todo el polígono
-    if(lv!=='dep'){
-      var P=STAXY.filter(function(s){return keyOf(s,lv)===k&&isFinite(s.la)&&isFinite(s.lo);});
-      if(P.length>=3){
-        var la=P.map(function(s){return s.la;}).sort(function(a,b){return a-b;}),lo=P.map(function(s){return s.lo;}).sort(function(a,b){return a-b;});
-        var q=function(a,p){return a[Math.min(a.length-1,Math.max(0,Math.round((a.length-1)*p)))];};
-        var cut=P.length>=40?.03:0;
-        var wide=window.innerWidth>1024;   // en pantallas anchas los paneles flotan sobre el mapa: se deja margen
-        map.fitBounds([[q(la,cut),q(lo,cut)],[q(la,1-cut),q(lo,1-cut)]],{paddingTopLeft:wide?[40,80]:[24,60],paddingBottomRight:wide?[310,40]:[24,24],maxZoom:lv==='dist'?14:13});return;
-      }
-    }
-    var l=layerByKey(k);if(l)map.fitBounds(l.getBounds(),{padding:[18,18],maxZoom:lv==='dist'?12:(lv==='prov'?10:8)});}
+    // encuadra la región elegida completa dentro de la parte visible del mapa
+    var l=layerByKey(k);if(!l)return;
+    var wide=window.innerWidth>1024;   // en pantallas anchas los paneles flotan sobre el mapa: se deja margen
+    var go=function(){map.invalidateSize();map.fitBounds(l.getBounds(),{paddingTopLeft:wide?[50,70]:[20,60],paddingBottomRight:wide?[320,24]:[20,20],maxZoom:lv==='dist'?14:(lv==='prov'?12:9)});};
+    var el=document.querySelector('main'),r=el.getBoundingClientRect();
+    if(r.top<-4||r.bottom>window.innerHeight+4){el.scrollIntoView({behavior:'smooth',block:'start'});setTimeout(go,350);}else go();
+  }
   // al acercar o alejar, los puntos cambian de tamaño
   var lastR=null;map.on('zoomend',function(){var r=ptR();if(r!==lastR){lastR=r;if(markerLayer)drawMarkers();}});
   fill(fDep,DEPS,'— Todo el Perú —');fill(fProv,[],'— Provincia —');fill(fDist,[],'— Distrito —');fProv.disabled=true;fDist.disabled=true;
@@ -643,6 +656,14 @@ footer.note b{color:var(--ink)}
   if (window.matchMedia) { var mq = matchMedia('(prefers-color-scheme: dark)'); if (mq.addEventListener) mq.addEventListener('change', function () { label(); if (!root.dataset.theme) document.dispatchEvent(new Event('gg-theme')); }); }
   label();
   if (root.dataset.theme) document.dispatchEvent(new Event('gg-theme'));
+})();
+</script>
+<script>
+/* Leyenda plegable: en pantallas bajas empieza cerrada para no tapar el panel de detalle */
+(function(){var lg=document.getElementById('legend'),b=document.getElementById('lgTog');
+  function set(o){lg.classList.toggle('closed',!o);b.setAttribute('aria-expanded',String(o));}
+  set(!(window.innerHeight<820&&window.innerWidth>640));
+  b.addEventListener('click',function(){set(lg.classList.contains('closed'));});
 })();
 </script>
 </body>
