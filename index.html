@@ -10,17 +10,17 @@
 <style>
 :root{--brand:#0b6b3a;--brand-2:#e03b2f;--ink:#15241d;--muted:#5c6b63;--line:#dce5df;
   --surface:#fff;--surface-2:#eef3ef;--bg:#e9eee9;
-  --field:#fff;--chip:#e7f3ec;--map-bg:#dfe7e0;--nodata:#eef3ef;--edge:#9fb3a7;--dot:#b7c2bb;--grid:#d9e3dc;--axis:#9fb3a7;--band:#2f9e5f;--bar:#0b6b3a;--line-main:#064d29;--ring:#fff;--minmax:#6f8579;--axis-text:#33423a;
+  --field:#fff;--chip:#e7f3ec;--map-bg:#dfe7e0;--nodata:#eef3ef;--edge:#9fb3a7;--dot:#b7c2bb;--grid:#d9e3dc;--axis:#9fb3a7;--band:#2f9e5f;--bar:#0b6b3a;--line-main:#064d29;--ring:#fff;--minmax:#c0392b;--axis-text:#33423a;
   color-scheme:light}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --brand:#2f9e5f;--brand-2:#ff6a5c;--ink:#e3ece6;--muted:#9db0a5;--line:#2a3a31;
   --surface:#16211b;--surface-2:#1e2b24;--bg:#0f1713;
-  --field:#1e2b24;--chip:#1f3a2b;--map-bg:#1a2620;--nodata:#2a3730;--edge:#4f6658;--dot:#6f8378;--grid:#2b3b32;--axis:#4f6658;--band:#3fb37a;--bar:#3fb37a;--line-main:#9be6bb;--ring:#0f1713;--minmax:#8fa79a;--axis-text:#c3d2c9;
+  --field:#1e2b24;--chip:#1f3a2b;--map-bg:#1a2620;--nodata:#2a3730;--edge:#4f6658;--dot:#6f8378;--grid:#2b3b32;--axis:#4f6658;--band:#3fb37a;--bar:#3fb37a;--line-main:#9be6bb;--ring:#0f1713;--minmax:#ff7b6e;--axis-text:#c3d2c9;
   color-scheme:dark}}
 :root[data-theme="dark"]{
   --brand:#2f9e5f;--brand-2:#ff6a5c;--ink:#e3ece6;--muted:#9db0a5;--line:#2a3a31;
   --surface:#16211b;--surface-2:#1e2b24;--bg:#0f1713;
-  --field:#1e2b24;--chip:#1f3a2b;--map-bg:#1a2620;--nodata:#2a3730;--edge:#4f6658;--dot:#6f8378;--grid:#2b3b32;--axis:#4f6658;--band:#3fb37a;--bar:#3fb37a;--line-main:#9be6bb;--ring:#0f1713;--minmax:#8fa79a;--axis-text:#c3d2c9;
+  --field:#1e2b24;--chip:#1f3a2b;--map-bg:#1a2620;--nodata:#2a3730;--edge:#4f6658;--dot:#6f8378;--grid:#2b3b32;--axis:#4f6658;--band:#3fb37a;--bar:#3fb37a;--line-main:#9be6bb;--ring:#0f1713;--minmax:#ff7b6e;--axis-text:#c3d2c9;
   color-scheme:dark}
 *{box-sizing:border-box}
 html,body{margin:0;height:100%}
@@ -224,7 +224,7 @@ footer.note b{color:var(--ink)}
   <div class="tctrl"><label>Combustible</label><div class="seg" id="tfuel"></div></div>
   <div class="tgrid">
     <div class="card"><h3 id="lineTitle">Evolución diaria del precio</h3><div id="lineChart"></div>
-      <div class="lg-line"><b>Mediana</b> (línea gruesa) · banda <b>P25–P75</b> · líneas finas <b>mínimo</b> y <b>máximo</b> del día.</div></div>
+      <div class="lg-line"><b>Mediana</b> (línea verde gruesa) · banda verde <b>P25–P75</b> · líneas <b style="color:var(--minmax)">rojas punteadas</b>: <b>mínimo</b> y <b>máximo</b> del día.</div></div>
     <div class="card"><h3 id="histTitle">Distribución de precios</h3><div id="histChart"></div>
       <div class="lg-line">Número de establecimientos por rango de precio en la fecha más reciente.</div></div>
     <div class="card tiles"><h3 id="tilesTitle">Resumen</h3><div class="ttiles" id="tTiles"></div></div>
@@ -511,8 +511,8 @@ footer.note b{color:var(--ink)}
     var gx='';for(var i=0;i<n;i+=Math.ceil(n/8)){gx+='<text x="'+X(i).toFixed(1)+'" y="'+(H-10)+'" text-anchor="middle" font-size="13" font-weight="600" fill="var(--axis-text)">'+TREND.dates[i]+'</text>';}
     document.getElementById('lineChart').innerHTML='<svg viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="xMidYMid meet">'+gy+
       '<line x1="'+pL+'" y1="'+(pT+ih)+'" x2="'+(W-pR)+'" y2="'+(pT+ih)+'" stroke="var(--axis)"/>'+'<path d="'+band+'" fill="var(--band)" opacity=".42"/>'+
-      '<path d="'+path(2)+'" fill="none" stroke="var(--minmax)" stroke-width="1.5"/>'+
-      '<path d="'+path(6)+'" fill="none" stroke="var(--minmax)" stroke-width="1.5"/>'+
+      '<path d="'+path(2)+'" fill="none" stroke="var(--minmax)" stroke-width="1.6" stroke-dasharray="6 4"/>'+
+      '<path d="'+path(6)+'" fill="none" stroke="var(--minmax)" stroke-width="1.6" stroke-dasharray="6 4"/>'+
       '<path d="'+path(4)+'" fill="none" stroke="var(--line-main)" stroke-width="3.4" stroke-linejoin="round"/>'+gx+'</svg>';
   }
   function renderHist(){
