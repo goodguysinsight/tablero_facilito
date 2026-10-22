@@ -95,6 +95,14 @@ footer.note b{color:var(--ink)}
 .gg-theme:hover{border-color:var(--muted)}
 .gg-theme:focus-visible,.tabbar .tab:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
 @media (max-width:600px){.tabbar{flex-wrap:wrap}}
+.upd{position:absolute;top:12px;left:56px;z-index:600;display:flex;align-items:center;gap:8px;max-width:calc(100% - 380px);
+  background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 14px 6px 10px;box-shadow:0 3px 12px rgba(0,0,0,.14);pointer-events:none}
+.upd b{display:block;font-size:.74rem;font-weight:800;color:var(--ink);line-height:1.2}
+.upd span{display:block;font-size:.62rem;color:var(--muted);line-height:1.25}
+.upd-dot{width:9px;height:9px;border-radius:50%;background:var(--brand);flex:none;box-shadow:0 0 0 3px var(--chip)}
+#info .ref{font-size:.6rem;color:var(--muted);line-height:1.35;margin-top:4px;font-weight:500}
+@media (max-width:1024px){.upd{max-width:calc(100% - 70px)}}
+@media (max-width:640px){.upd{top:10px;left:50px;right:10px;max-width:none;border-radius:12px}}
 .gg-hero{display:flex;align-items:center;gap:14px;padding:12px 16px 10px;background:var(--surface);border-bottom:1px solid var(--line)}
 .gg-hero .gg-logo{width:60px;height:60px}
 .gg-hero-t{min-width:0}
@@ -200,6 +208,7 @@ footer.note b{color:var(--ink)}
 </header>
 <main>
   <div id="map"></div>
+  <div class="upd" id="updBadge" role="note"><span class="upd-dot" aria-hidden="true"></span><div><b>Precios actualizados al 16 de octubre de 2026</b><span>OSINERGMIN — SCOP/PRICE y Facilito · extracción: 15‑oct‑2026</span></div></div>
   <div class="panel" id="info">
     <div class="pinbar"><span id="pinTxt">Zona fijada</span><button class="px" id="pinClr" type="button">✕ Ver todo</button></div>
     <div class="u-name" id="iName">Perú</div>
@@ -247,6 +256,7 @@ footer.note b{color:var(--ink)}
   <b>Cobertura:</b> precios de <b>~5&nbsp;450 grifos</b> con <b>cobertura nacional</b> (25 departamentos · 187 provincias · 1008 distritos), obtenidos del buscador público de <b>Facilito</b> por provincia. Incluye líquidos, <b>GNV</b>, y <b>GLP automotor</b> y <b>GLP envasado</b> (balón de 10 kg). Los coropléticos, estadísticos (mín/prom/máx/mediana, brecha, ahorro) y el Top‑10 se calculan por ubigeo con esos establecimientos. En el <b>mapa de puntos</b>, cada establecimiento con precio se pinta por su precio cuando se le pudo asignar coordenada exacta por su <b>código OSINERGMIN</b> contra el <b>registro georreferenciado de OSINERGMIN</b> (los establecimientos nuevos cuyo código aún no está en el registro no tienen coordenada oficial, por eso parte de ellos aún no tienen punto en el mapa, pero sí entran en los cálculos); los grifos registrados sin precio se muestran en gris. La evolución diaria nacional se ve en la otra pestaña. &nbsp;·&nbsp;
   Precios reportados por los operadores a través de la plataforma del Osinergmin; pueden no coincidir con los ofrecidos en el establecimiento. &nbsp;·&nbsp;
   Límites distritales/provinciales: RENLIM — SDOT/PCM (vigencia 2023, referenciales). &nbsp;·&nbsp;
+  El <b>ahorro potencial</b> (diferencia entre el precio máximo y el mínimo de la zona) es <b>referencial</b>: puede variar según la cantidad adquirida, la distancia al establecimiento y la vigencia de los precios. &nbsp;·&nbsp;
   Extracción: 15 de octubre de 2026. &nbsp;·&nbsp; Fuente: OSINERGMIN — SCOP/PRICE (últimos precios EVPC, 16‑oct‑2026) y Facilito (GLP envasado) (https://www.facilito.gob.pe). Elaboración: Good Guys Insight.
 </footer>
 
@@ -339,7 +349,8 @@ footer.note b{color:var(--ink)}
       '<div class="cell"><div class="lab">Mediana</div><div class="val">'+fmtS(d.med)+'</div></div>'+
       '<div class="cell"><div class="lab">Establecimientos</div><div class="val">'+d.n+'</div></div>'+
       '<div class="cell"><div class="lab">Brecha (máx−mín)</div><div class="val">'+fmtS(brecha)+'</div></div>'+
-      '<div class="cell" style="grid-column:1/3"><div class="lab">Ahorro potencial (elegir el más barato)</div><div class="val" style="color:var(--brand)">'+fmtS(ahorro)+' <small>por '+un()+'</small></div></div>';
+      '<div class="cell" style="grid-column:1/3"><div class="lab">Ahorro potencial referencial (elegir el más barato)</div><div class="val" style="color:var(--brand)">'+fmtS(ahorro)+' <small>por '+un()+'</small></div>'+
+      '<div class="ref">Referencial: puede variar según la cantidad adquirida, la distancia al establecimiento y la vigencia de los precios.</div></div>';
   }
 
   // ---- Top 10 ----
