@@ -1,30 +1,35 @@
-# Tablero de Precios de Combustibles — Grifos (OSINERGMIN · Facilito)
+# Mapa TANQUEA SMART — Precios de combustibles por grifo (OSINERGMIN · Facilito)
 
-Tablero dinámico e interactivo de precios de combustibles por establecimiento (grifos y estaciones de servicio), con mapa coroplético por nivel territorial, estadísticos de precio y ranking de establecimientos más baratos. Elaboración: **Good Guys Insight**.
+**Mapa TANQUEA SMART** es un tablero dinámico e interactivo de precios de combustibles por establecimiento (grifos y estaciones de servicio), con mapa coroplético por nivel territorial, estadísticos de precio y ranking de establecimientos más baratos. Elaboración: **Good Guys Insight**.
 
 ## Demo
 
 El tablero es una única página autocontenida (`index.html`). Para publicarla:
 
 1. En este repositorio: **Settings → Pages → Build and deployment → Source: Deploy from a branch**, rama `main`, carpeta `/ (root)`.
-2. La página quedará disponible en `https://goodguysinsight.github.io/tablero_facilito/`.
+2. La página quedará disponible en `https://goodguysinsight.github.io/tablero_tanquea_smart/`.
+
+> El repositorio se llamaba antes `tablero_facilito`; la dirección anterior (`…/tablero_facilito/`) ya no está disponible.
 
 También puede abrirse descargando `index.html` y abriéndolo en el navegador.
 
 ## Funcionalidades
 
-- **Selector de combustible:** Gasohol Regular, Gasohol Premium, Gasolina 84, Diesel B5 S‑50 y **GLP Automotor** (soles por galón); **Gas Natural Vehicular – GNV** (soles por m³); y **GLP Envasado** (soles por balón de 10 kg).
+- **Selector de combustible:** Gasohol Premium, Gasohol Regular, Gasolina 84, Diesel B5 S‑50 y **GLP Automotor** (soles por galón); **Gas Natural Vehicular – GNV** (soles por m³); y **GLP Envasado** (soles por balón de 10 kg).
 - **Tres niveles territoriales:** Departamental, Provincial y Distrital, con **filtros en cascada** (Departamento → Provincia → Distrito).
 - **Mapa coroplético** coloreado por el **precio mínimo** del combustible elegido (tono más oscuro = más barato).
-- **Panel por zona:** precio **mínimo, promedio, máximo y mediana**, número de establecimientos, **brecha** de precios (máx − mín) y **ahorro potencial** por galón.
+- **Panel por zona:** precio **mínimo, promedio, máximo y mediana**, número de establecimientos (y cuántos aparecen en el mapa), **brecha** de precios (máx − mín) y **ahorro potencial referencial** por galón. El ahorro es referencial: puede variar según la cantidad adquirida, la distancia al establecimiento y la vigencia de los precios.
 - **Marcadores por grifo** con *popup*: nombre, distrito, dirección, todos sus precios y botón **"Ver en Google Maps"** (GPS).
-- **Top 10 más barato:** ranking dinámico de establecimientos de la zona, coloreado de oscuro (más barato) a pálido (más caro), con enlace al mapa.
-- **Clic en una zona** la fija en el panel y en el Top 10; el botón **"Ver todo"** regresa a la vista nacional.
-- Diseño **responsive** para escritorio y celular.
+- **Puntos por grifo según su precio** dentro de la zona visible: verde = precio mínimo; azul = del 2.º más barato al 25 %; celeste = 25 %–50 %; azul claro = 50 %–75 %; rojo = 75 % a más. La leyenda muestra los cortes en soles.
+- **Top 10 más barato:** ranking dinámico de establecimientos de la zona, con los mismos colores de los puntos y enlace al mapa (o la etiqueta «sin ubicación» si el grifo no tiene coordenadas).
+- **Clic en una zona** o filtro de ubicación: la fija en el panel y en el Top 10, la **encuadra completa** en la pantalla y **atenúa** las regiones de alrededor; el botón **"Ver todo"** regresa a la vista nacional.
+- **Fecha de actualización** visible sobre el mapa.
+- **Modo claro / oscuro** (botón «◐ Modo»): respeta el tema del dispositivo y recuerda la elección del visitante.
+- Diseño **responsive** para escritorio y celular; leyenda plegable en pantallas bajas.
 
 Tres pestañas:
 - **Mapa de precios por grifo** — lo descrito arriba (ubicación nacional + precio donde existe).
-- **Evolución y distribución (nacional)** — serie **diaria** del precio (mediana con banda **P25–P75** y líneas de **mínimo/máximo**), **histograma** de distribución y resumen, para los **6 combustibles** (incluye GLP granel y envasado), a partir de la lista de precios diaria de OSINERGMIN (**1 ene – 28 feb 2026**, datos anonimizados sin ubicación).
+- **Evolución y distribución (nacional)** — serie **diaria** del precio (mediana en verde con banda **P25–P75** y líneas **rojas punteadas** de mínimo/máximo), **histograma** de distribución y resumen, para los **6 combustibles** (incluye GLP granel y envasado), a partir de la lista de precios diaria de OSINERGMIN (**1 ene – 28 feb 2026**, datos anonimizados sin ubicación).
 - **Distribuidores mayoristas (DMAY)** — tabla filtrable (por producto y departamento) de los precios de **venta mayorista** de los ~120 distribuidores, con estadísticos (mín/mediana/promedio/máx). Fuente: OSINERGMIN — SCOP/PRICE (DMAY), corte 16‑oct‑2026. *Nota: incluye precios de venta en planta/refinería, distintos del precio minorista en estación.*
 
 ## Fuente de datos
@@ -67,7 +72,7 @@ Los precios se obtienen de la tabla pública de Facilito (`PreciosCombustibleAut
 ## Limitaciones y trabajo futuro
 
 - **Puntos en el mapa:** los grifos con precio cuyo código aún no figura en el registro público georreferenciado (establecimientos nuevos) no tienen coordenada oficial; se mapean ~2 900 de ~5 450. Todos entran en los cálculos por ubigeo. Alternativas para completar el resto: coordenadas del propio mapa de Facilito, geocodificación de direcciones o centroide distrital (aproximado).
-- **GLP automotor y envasado:** Facilito no expone sus coordenadas, por lo que no se pueden mapear.
+- **GLP automotor y envasado:** Facilito no expone sus coordenadas; solo se mapean los locales que figuran en el registro georreferenciado de OSINERGMIN (en GLP envasado, unos 270 de 2,100). Los demás entran en los cálculos y en el Top 10 con la etiqueta «sin ubicación».
 - **Histórico de precios:** el tablero muestra una foto puntual; requiere almacenar *snapshots* periódicos para construir la serie.
 
 ## Créditos

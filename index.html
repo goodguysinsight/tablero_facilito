@@ -330,7 +330,9 @@ footer.note b{color:var(--ink)}
     return RAMP[5];
   }
   function styleFn(f){var k=regKey(f.properties),d=STATS[k];
-    return {weight:.6,color:tok('--edge'),fillColor:colorFor(d?d.min:null),fillOpacity:d?.92:.35};}
+    // foco: con una zona filtrada, las regiones de alrededor se atenúan y la zona elegida conserva su color
+    var pk=state.pinned&&state.pinned.k, out=pk&&k.indexOf(pk)!==0;
+    return {weight:out?.4:.6,color:tok('--edge'),fillColor:colorFor(d?d.min:null),fillOpacity:out?(d?.16:.08):(d?.92:.35)};}
 
   // ---- info panel ----
   function regionStats(p){
