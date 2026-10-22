@@ -290,10 +290,9 @@ footer.note b{color:var(--ink)}
   function un(){return UNIT[state.fuel];}
   var RAMP=['#0a3d24','#15663b','#2f9e5f','#86c9a2','#cfe9db','#f1f6f2']; // dark=cheap -> pale=expensive
   var state={fuel:'regular',level:'dep',pinned:null};
-  var map=L.map('map',{scrollWheelZoom:false,preferCanvas:true,zoomControl:true,zoomSnap:0.25,zoomDelta:0.5}).setView([-8.5,-74.5],6);
-  // los grifos van en su propio panel (encima de las regiones) para que la región fijada no los tape
-  map.createPane('pts');map.getPane('pts').style.zIndex=450;
-  var ptsR=L.canvas({pane:'pts',padding:.5});
+  var map=L.map('map',{scrollWheelZoom:false,preferCanvas:true,renderer:L.canvas({padding:.5,tolerance:L.Browser.touch?10:3}),zoomControl:true,zoomSnap:0.25,zoomDelta:0.5}).setView([-8.5,-74.5],6);
+  // regiones y grifos comparten un solo lienzo (así ambos responden al cursor y al toque);
+  // los grifos se mantienen siempre encima. En celulares, el área de toque de cada punto es más amplia.
   function ptR(){return map.getZoom()>=11?7:(map.getZoom()>=9?6:5);}
   var layers={},curLayer=null,curBreaks=[],markerLayer=null,hovered=null;
 
@@ -446,14 +445,14 @@ footer.note b{color:var(--ink)}
     all.forEach(function(s){
       var v=s.pr[state.fuel];
       if(v!=null)return;
-      var m=L.circleMarker([s.la,s.lo],{renderer:ptsR,radius:map.getZoom()>=11?3.6:2.6,weight:0,fillColor:tok('--dot'),fillOpacity:.7});
+      var m=L.circleMarker([s.la,s.lo],{radius:map.getZoom()>=11?3.6:2.6,weight:0,fillColor:tok('--dot'),fillOpacity:.7});
       m.bindPopup(popupHtml(s)); m.addTo(markerLayer);
     });
     var P=ptStats();
     // los más caros se dibujan primero para que los más baratos queden encima
     priced.map(function(s){return {s:s,c:ptClass(s.pr[state.fuel],P)};}).sort(function(a,b){return b.c-a.c;}).forEach(function(o){
       var s=o.s, col=PT_COL[o.c];
-      var r0=ptR();var m=L.circleMarker([s.la,s.lo],{renderer:ptsR,radius:o.c===0?r0+2:r0,weight:o.c===0?2:1,color:tok('--ring'),fillColor:col,fillOpacity:.96});
+      var r0=ptR();var m=L.circleMarker([s.la,s.lo],{radius:o.c===0?r0+2:r0,weight:o.c===0?2:1,color:tok('--ring'),fillColor:col,fillOpacity:.96});
       m.bindPopup(popupHtml(s)); m.addTo(markerLayer);
     });
     markerLayer.addTo(map);
@@ -472,14 +471,15 @@ footer.note b{color:var(--ink)}
   function tipFor(p){var d=STATS[p.k];return '<b>'+cap(p.n)+'</b><br>'+(d?('Mín: '+fmtS(d.min)+' · '+d.n+' est.'):'sin dato');}
   function buildLayer(lv){
     return L.geoJSON(GEO[lv],{style:styleFn,onEachFeature:function(f,ly){
-      ly.on('mouseover',function(){ly.setStyle({weight:2,color:tok('--brand')});ly.bringToFront&&ly.bringToFront();});
+      ly.on('mouseover',function(){ly.setStyle({weight:2,color:tok('--brand')});});
       ly.on('mouseout',function(){curLayer.resetStyle(ly);paintPinned();});
-      ly.on('click',function(){state.pinned=f.properties;refreshScope();flyKey(state.level,f.properties.k);});
+      ly.on('click',function(){if(state.pinned&&state.pinned.k===f.properties.k)return;   // ya fijada: se conserva el zoom
+        state.pinned=f.properties;refreshScope();flyKey(state.level,f.properties.k);});
       ly.bindTooltip(function(l){return tipFor(l.feature.properties);},{sticky:true,direction:'top',className:'maplabel'});
     }});
   }
   function layerByKey(k){var r=null;curLayer&&curLayer.eachLayer(function(l){if(l.feature&&l.feature.properties.k===k)r=l;});return r;}
-  function paintPinned(){if(!state.pinned)return;var l=layerByKey(state.pinned.k);if(l){l.setStyle({weight:2.4,color:tok('--brand-2')});l.bringToFront&&l.bringToFront();}}
+  function paintPinned(){if(!state.pinned)return;var l=layerByKey(state.pinned.k);if(l){l.setStyle({weight:2.4,color:tok('--brand-2')});l.bringToFront&&l.bringToFront();if(markerLayer)markerLayer.eachLayer(function(m){m.bringToFront();});}}
   function setLayer(lv){
     if(curLayer)map.removeLayer(curLayer);
     if(!layers[lv])layers[lv]=buildLayer(lv);
